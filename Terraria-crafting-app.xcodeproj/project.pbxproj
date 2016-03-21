@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAFDA461C9F91A300BBA441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */; };
+		ACAFDA481C9F91A300BBA441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA471C9F91A300BBA441 /* ViewController.swift */; };
+		ACAFDA4B1C9F91A300BBA441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAFDA491C9F91A300BBA441 /* Main.storyboard */; };
+		ACAFDA4E1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA4C1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld */; };
+		ACAFDA501C9F91A300BBA441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAFDA4F1C9F91A300BBA441 /* Assets.xcassets */; };
+		ACAFDA531C9F91A300BBA441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAFDA511C9F91A300BBA441 /* LaunchScreen.storyboard */; };
+		ACAFDA5E1C9F91A400BBA441 /* Terraria_crafting_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA5D1C9F91A400BBA441 /* Terraria_crafting_appTests.swift */; };
+		ACAFDA691C9F91A400BBA441 /* Terraria_crafting_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA681C9F91A400BBA441 /* Terraria_crafting_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAFDA5A1C9F91A400BBA441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAFDA3A1C9F91A300BBA441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAFDA411C9F91A300BBA441;
+			remoteInfo = "Terraria-crafting-app";
+		};
+		ACAFDA651C9F91A400BBA441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAFDA3A1C9F91A300BBA441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAFDA411C9F91A300BBA441;
+			remoteInfo = "Terraria-crafting-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACAFDA421C9F91A300BBA441 /* Terraria-crafting-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terraria-crafting-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACAFDA471C9F91A300BBA441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACAFDA4A1C9F91A300BBA441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACAFDA4D1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Terraria_crafting_app.xcdatamodel; sourceTree = "<group>"; };
+		ACAFDA4F1C9F91A300BBA441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAFDA521C9F91A300BBA441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACAFDA541C9F91A300BBA441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAFDA591C9F91A400BBA441 /* Terraria-crafting-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Terraria-crafting-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAFDA5D1C9F91A400BBA441 /* Terraria_crafting_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terraria_crafting_appTests.swift; sourceTree = "<group>"; };
+		ACAFDA5F1C9F91A400BBA441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAFDA641C9F91A400BBA441 /* Terraria-crafting-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Terraria-crafting-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAFDA681C9F91A400BBA441 /* Terraria_crafting_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terraria_crafting_appUITests.swift; sourceTree = "<group>"; };
+		ACAFDA6A1C9F91A400BBA441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAFDA3F1C9F91A300BBA441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFDA561C9F91A400BBA441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFDA611C9F91A400BBA441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAFDA391C9F91A300BBA441 = {
+			isa = PBXGroup;
+			children = (
+				ACAFDA441C9F91A300BBA441 /* Terraria-crafting-app */,
+				ACAFDA5C1C9F91A400BBA441 /* Terraria-crafting-appTests */,
+				ACAFDA671C9F91A400BBA441 /* Terraria-crafting-appUITests */,
+				ACAFDA431C9F91A300BBA441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAFDA431C9F91A300BBA441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFDA421C9F91A300BBA441 /* Terraria-crafting-app.app */,
+				ACAFDA591C9F91A400BBA441 /* Terraria-crafting-appTests.xctest */,
+				ACAFDA641C9F91A400BBA441 /* Terraria-crafting-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAFDA441C9F91A300BBA441 /* Terraria-crafting-app */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */,
+				ACAFDA471C9F91A300BBA441 /* ViewController.swift */,
+				ACAFDA491C9F91A300BBA441 /* Main.storyboard */,
+				ACAFDA4F1C9F91A300BBA441 /* Assets.xcassets */,
+				ACAFDA511C9F91A300BBA441 /* LaunchScreen.storyboard */,
+				ACAFDA541C9F91A300BBA441 /* Info.plist */,
+				ACAFDA4C1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld */,
+			);
+			path = "Terraria-crafting-app";
+			sourceTree = "<group>";
+		};
+		ACAFDA5C1C9F91A400BBA441 /* Terraria-crafting-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFDA5D1C9F91A400BBA441 /* Terraria_crafting_appTests.swift */,
+				ACAFDA5F1C9F91A400BBA441 /* Info.plist */,
+			);
+			path = "Terraria-crafting-appTests";
+			sourceTree = "<group>";
+		};
+		ACAFDA671C9F91A400BBA441 /* Terraria-crafting-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAFDA681C9F91A400BBA441 /* Terraria_crafting_appUITests.swift */,
+				ACAFDA6A1C9F91A400BBA441 /* Info.plist */,
+			);
+			path = "Terraria-crafting-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAFDA411C9F91A300BBA441 /* Terraria-crafting-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAFDA6D1C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-app" */;
+			buildPhases = (
+				ACAFDA3E1C9F91A300BBA441 /* Sources */,
+				ACAFDA3F1C9F91A300BBA441 /* Frameworks */,
+				ACAFDA401C9F91A300BBA441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Terraria-crafting-app";
+			productName = "Terraria-crafting-app";
+			productReference = ACAFDA421C9F91A300BBA441 /* Terraria-crafting-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAFDA581C9F91A400BBA441 /* Terraria-crafting-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAFDA701C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-appTests" */;
+			buildPhases = (
+				ACAFDA551C9F91A400BBA441 /* Sources */,
+				ACAFDA561C9F91A400BBA441 /* Frameworks */,
+				ACAFDA571C9F91A400BBA441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAFDA5B1C9F91A400BBA441 /* PBXTargetDependency */,
+			);
+			name = "Terraria-crafting-appTests";
+			productName = "Terraria-crafting-appTests";
+			productReference = ACAFDA591C9F91A400BBA441 /* Terraria-crafting-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACAFDA631C9F91A400BBA441 /* Terraria-crafting-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAFDA731C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-appUITests" */;
+			buildPhases = (
+				ACAFDA601C9F91A400BBA441 /* Sources */,
+				ACAFDA611C9F91A400BBA441 /* Frameworks */,
+				ACAFDA621C9F91A400BBA441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAFDA661C9F91A400BBA441 /* PBXTargetDependency */,
+			);
+			name = "Terraria-crafting-appUITests";
+			productName = "Terraria-crafting-appUITests";
+			productReference = ACAFDA641C9F91A400BBA441 /* Terraria-crafting-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAFDA3A1C9F91A300BBA441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Giovanni;
+				TargetAttributes = {
+					ACAFDA411C9F91A300BBA441 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ACAFDA581C9F91A400BBA441 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACAFDA411C9F91A300BBA441;
+					};
+					ACAFDA631C9F91A400BBA441 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACAFDA411C9F91A300BBA441;
+					};
+				};
+			};
+			buildConfigurationList = ACAFDA3D1C9F91A300BBA441 /* Build configuration list for PBXProject "Terraria-crafting-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAFDA391C9F91A300BBA441;
+			productRefGroup = ACAFDA431C9F91A300BBA441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAFDA411C9F91A300BBA441 /* Terraria-crafting-app */,
+				ACAFDA581C9F91A400BBA441 /* Terraria-crafting-appTests */,
+				ACAFDA631C9F91A400BBA441 /* Terraria-crafting-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAFDA401C9F91A300BBA441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFDA531C9F91A300BBA441 /* LaunchScreen.storyboard in Resources */,
+				ACAFDA501C9F91A300BBA441 /* Assets.xcassets in Resources */,
+				ACAFDA4B1C9F91A300BBA441 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFDA571C9F91A400BBA441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFDA621C9F91A400BBA441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAFDA3E1C9F91A300BBA441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFDA481C9F91A300BBA441 /* ViewController.swift in Sources */,
+				ACAFDA4E1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld in Sources */,
+				ACAFDA461C9F91A300BBA441 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFDA551C9F91A400BBA441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFDA5E1C9F91A400BBA441 /* Terraria_crafting_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFDA601C9F91A400BBA441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAFDA691C9F91A400BBA441 /* Terraria_crafting_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAFDA5B1C9F91A400BBA441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAFDA411C9F91A300BBA441 /* Terraria-crafting-app */;
+			targetProxy = ACAFDA5A1C9F91A400BBA441 /* PBXContainerItemProxy */;
+		};
+		ACAFDA661C9F91A400BBA441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAFDA411C9F91A300BBA441 /* Terraria-crafting-app */;
+			targetProxy = ACAFDA651C9F91A400BBA441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAFDA491C9F91A300BBA441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAFDA4A1C9F91A300BBA441 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACAFDA511C9F91A300BBA441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAFDA521C9F91A300BBA441 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAFDA6B1C9F91A400BBA441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAFDA6C1C9F91A400BBA441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAFDA6E1C9F91A400BBA441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Terraria-crafting-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.Terraria-crafting-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACAFDA6F1C9F91A400BBA441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Terraria-crafting-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.Terraria-crafting-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACAFDA711C9F91A400BBA441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Terraria-crafting-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.Terraria-crafting-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terraria-crafting-app.app/Terraria-crafting-app";
+			};
+			name = Debug;
+		};
+		ACAFDA721C9F91A400BBA441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Terraria-crafting-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.Terraria-crafting-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terraria-crafting-app.app/Terraria-crafting-app";
+			};
+			name = Release;
+		};
+		ACAFDA741C9F91A400BBA441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Terraria-crafting-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.Terraria-crafting-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Terraria-crafting-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACAFDA751C9F91A400BBA441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Terraria-crafting-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.Terraria-crafting-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Terraria-crafting-app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAFDA3D1C9F91A300BBA441 /* Build configuration list for PBXProject "Terraria-crafting-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFDA6B1C9F91A400BBA441 /* Debug */,
+				ACAFDA6C1C9F91A400BBA441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAFDA6D1C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFDA6E1C9F91A400BBA441 /* Debug */,
+				ACAFDA6F1C9F91A400BBA441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACAFDA701C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFDA711C9F91A400BBA441 /* Debug */,
+				ACAFDA721C9F91A400BBA441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACAFDA731C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAFDA741C9F91A400BBA441 /* Debug */,
+				ACAFDA751C9F91A400BBA441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACAFDA4C1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACAFDA4D1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodel */,
+			);
+			currentVersion = ACAFDA4D1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodel */;
+			path = Terraria_crafting_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACAFDA3A1C9F91A300BBA441 /* Project object */;
+}
