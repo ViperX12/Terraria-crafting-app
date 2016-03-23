@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="1291" y="491"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Item Table View Controller-->
         <scene sceneID="ODM-wR-0UQ">
             <objects>
-                <tableViewController id="oJp-0n-nHI" sceneMemberID="viewController">
+                <tableViewController id="oJp-0n-nHI" customClass="ItemTableViewController" customModule="Terraria_crafting_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hFd-eZ-jt3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

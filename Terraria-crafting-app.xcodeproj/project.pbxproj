@@ -15,6 +15,9 @@
 		ACAFDA531C9F91A300BBA441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAFDA511C9F91A300BBA441 /* LaunchScreen.storyboard */; };
 		ACAFDA5E1C9F91A400BBA441 /* Terraria_crafting_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA5D1C9F91A400BBA441 /* Terraria_crafting_appTests.swift */; };
 		ACAFDA691C9F91A400BBA441 /* Terraria_crafting_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA681C9F91A400BBA441 /* Terraria_crafting_appUITests.swift */; };
+		ACD0B8B71CA10CCB00543523 /* itemData.csv in Resources */ = {isa = PBXBuildFile; fileRef = ACD0B8B61CA10CCB00543523 /* itemData.csv */; };
+		ACD0B8B91CA10DAC00543523 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0B8B81CA10DAC00543523 /* ItemTableViewController.swift */; };
+		ACD0B8BB1CA10E0A00543523 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0B8BA1CA10E0A00543523 /* Items.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		ACAFDA641C9F91A400BBA441 /* Terraria-crafting-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Terraria-crafting-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAFDA681C9F91A400BBA441 /* Terraria_crafting_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terraria_crafting_appUITests.swift; sourceTree = "<group>"; };
 		ACAFDA6A1C9F91A400BBA441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD0B8B61CA10CCB00543523 /* itemData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = itemData.csv; sourceTree = "<group>"; };
+		ACD0B8B81CA10DAC00543523 /* ItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		ACD0B8BA1CA10E0A00543523 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 			children = (
 				ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */,
 				ACAFDA471C9F91A300BBA441 /* ViewController.swift */,
+				ACD0B8B81CA10DAC00543523 /* ItemTableViewController.swift */,
 				ACAFDA491C9F91A300BBA441 /* Main.storyboard */,
 				ACAFDA4F1C9F91A300BBA441 /* Assets.xcassets */,
 				ACAFDA511C9F91A300BBA441 /* LaunchScreen.storyboard */,
 				ACAFDA541C9F91A300BBA441 /* Info.plist */,
+				ACD0B8B61CA10CCB00543523 /* itemData.csv */,
+				ACD0B8BA1CA10E0A00543523 /* Items.swift */,
 				ACAFDA4C1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld */,
 			);
 			path = "Terraria-crafting-app";
@@ -235,6 +244,7 @@
 				ACAFDA531C9F91A300BBA441 /* LaunchScreen.storyboard in Resources */,
 				ACAFDA501C9F91A300BBA441 /* Assets.xcassets in Resources */,
 				ACAFDA4B1C9F91A300BBA441 /* Main.storyboard in Resources */,
+				ACD0B8B71CA10CCB00543523 /* itemData.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAFDA481C9F91A300BBA441 /* ViewController.swift in Sources */,
+				ACD0B8BB1CA10E0A00543523 /* Items.swift in Sources */,
 				ACAFDA4E1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld in Sources */,
+				ACD0B8B91CA10DAC00543523 /* ItemTableViewController.swift in Sources */,
 				ACAFDA461C9F91A300BBA441 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +500,7 @@
 				ACAFDA6F1C9F91A400BBA441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACAFDA701C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-appTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				ACAFDA721C9F91A400BBA441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACAFDA731C9F91A400BBA441 /* Build configuration list for PBXNativeTarget "Terraria-crafting-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				ACAFDA751C9F91A400BBA441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
