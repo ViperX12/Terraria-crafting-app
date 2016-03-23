@@ -9,6 +9,7 @@
 import Foundation
 import CoreData
 
+@objc
 class Items: NSManagedObject {
     @NSManaged var name:String?
     @NSManaged var craftingRecipe:String?

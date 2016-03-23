@@ -7,17 +7,31 @@
 //
 
 import UIKit
+import CoreData
 
 class ItemTableViewController: UITableViewController {
 
+    private var itemsList:[Items] = []
+    var fetchResultController:NSFetchedResultsController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        // Load menu items from database
+        if let managedObjectContext = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext {
+            
+            let fetchRequest = NSFetchRequest(entityName: "Items")
+            do {
+                itemsList = try managedObjectContext.executeFetchRequest(fetchRequest) as! [Items]
+            } catch {
+                print("Failed to retrieve record")
+                print(error)
+            }
+        }
+        
+        // Make the cell self size
+        tableView.estimatedRowHeight = 66.0
+        tableView.rowHeight = UITableViewAutomaticDimension
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,23 +43,24 @@ class ItemTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return itemsList.count
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ItemTableViewCell
 
-        // Configure the cell...
-
+        cell.NameLabel.text = itemsList[indexPath.row].name
+        cell.RecipeLabel.text = itemsList[indexPath.row].craftingRecipe
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
