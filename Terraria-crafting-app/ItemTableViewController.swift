@@ -88,15 +88,27 @@ class ItemTableViewController: UITableViewController {
         tableView.reloadData()
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "showDetail" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let item: Items
+                if searchController.active && searchController.searchBar.text != "" {
+                    item = filteredItems[indexPath.row]
+                } else {
+                    item = itemsList[indexPath.row]
+                }
+                let controller = segue.destinationViewController as! DetailViewController
+                controller.detailItem = item
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem()
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
     }
-    */
+    
 
 }
 
