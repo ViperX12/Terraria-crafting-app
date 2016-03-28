@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1509" minimumToolsVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1713" minimumToolsVersion="Automatic">
     <entity name="Items" representedClassName=".Items" syncable="YES">
+        <attribute name="anyIronBar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="anyWood" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="craftingRecipe" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needHoney" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needWater" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requiredTiles" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Items" positionX="-27" positionY="18" width="128" height="75"/>
+        <element name="Items" positionX="-27" positionY="18" width="128" height="150"/>
     </elements>
 </model>

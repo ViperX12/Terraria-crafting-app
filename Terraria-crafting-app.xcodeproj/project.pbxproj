@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC51CA261CA75CDD009F5765 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51CA251CA75CDD009F5765 /* DetailViewController.swift */; };
 		AC593CDA1CA22C7800D2014B /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC593CD91CA22C7800D2014B /* ItemTableViewCell.swift */; };
+		ACA0329E1CA8CD0C005550DC /* ItemDataSuper.csv in Resources */ = {isa = PBXBuildFile; fileRef = ACA0329D1CA8CD0C005550DC /* ItemDataSuper.csv */; };
 		ACAFDA461C9F91A300BBA441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */; };
 		ACAFDA481C9F91A300BBA441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA471C9F91A300BBA441 /* ViewController.swift */; };
 		ACAFDA4B1C9F91A300BBA441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAFDA491C9F91A300BBA441 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		AC51CA251CA75CDD009F5765 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AC593CD91CA22C7800D2014B /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		ACA0329D1CA8CD0C005550DC /* ItemDataSuper.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ItemDataSuper.csv; sourceTree = "<group>"; };
 		ACAFDA421C9F91A300BBA441 /* Terraria-crafting-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terraria-crafting-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACAFDA471C9F91A300BBA441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				ACAFDA511C9F91A300BBA441 /* LaunchScreen.storyboard */,
 				ACAFDA541C9F91A300BBA441 /* Info.plist */,
 				ACD0B8B61CA10CCB00543523 /* itemData.csv */,
+				ACA0329D1CA8CD0C005550DC /* ItemDataSuper.csv */,
 				ACD0B8BA1CA10E0A00543523 /* Items.swift */,
 				ACAFDA4C1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld */,
 			);
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAFDA531C9F91A300BBA441 /* LaunchScreen.storyboard in Resources */,
+				ACA0329E1CA8CD0C005550DC /* ItemDataSuper.csv in Resources */,
 				ACAFDA501C9F91A300BBA441 /* Assets.xcassets in Resources */,
 				ACAFDA4B1C9F91A300BBA441 /* Main.storyboard in Resources */,
 				ACD0B8B71CA10CCB00543523 /* itemData.csv in Resources */,

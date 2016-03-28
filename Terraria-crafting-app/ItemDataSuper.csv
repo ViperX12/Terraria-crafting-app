@@ -1,0 +1,842 @@
+Torch,Gel (1) + Wood (1),,No,No,No,Yes
+Cursed Torch,Torch (33) + Cursed Flame (1),,No,No,No,No
+Ichor Torch,Torch (33) + Ichor (1),,No,No,No,No
+Ice Torch,Torch (3) + Ice Block (1),,No,No,No,No
+Blue Torch,Torch (3) + Sapphire (1),,No,No,No,No
+Red Torch,Torch (3) + Ruby (1),,No,No,No,No
+Green Torch,Torch (3) + Emerald (1),,No,No,No,No
+Yellow Torch,Torch (3) + Topaz (1),,No,No,No,No
+Purple Torch,Torch (3) + Amethyst (1),,No,No,No,No
+White Torch,Torch (3) + Diamond (1),,No,No,No,No
+Orange Torch,Torch (3) + Amber (1),,No,No,No,No
+Rope Coil,Rope (10),,No,No,No,No
+Campfire,Wood (10) + Torch (5),,No,No,No,Yes
+Sticky Bomb,Bomb (1) + Gel (1),,No,No,No,No
+Sticky Glowstick,Glowstick (5) + Gel (1),,No,No,No,No
+Mug,Glass (1),Furnace,No,No,No,No
+Ale,Mug (1),Keg,No,No,No,No
+Bowl of Soup,Bowl (1) + Mushroom (1) + Goldfish (1),Cooking Pot,No,No,No,No
+Marshmellow on a Stick,Marshmellow (1) + Wood (1),,No,No,No,Yes
+Bottle,Glass (1),Furnace,No,No,No,No
+Bottled Water,Bottle (1),,Yes,No,No,No
+Bottled Honey,Bottle (1),,No,Yes,No,No
+Holy Water,Bottled Water (1) + Pixie Dust (5) + Hallowed Seeds (1),,No,No,No,No
+Unholy Water,Bottled Water (1) + Ebonsand Block (1) + Corrupt Seeds (1),,No,No,No,No
+Lesser Healing Potion,Mushroom (1) + Gel (2) + Bottle (2),Bottle,No,No,No,No
+Healing Potion,Lesser Healing Potion (2) + Glowing Mushroom (1),Bottle,No,No,No,No
+Greater Healing Potion,Bottled Water (1) + Pixie Dust (3) + Crystal Shard (1),Bottle,No,No,No,No
+Lesser Mana Potion,Fallen Star (1) + Gel (2) + Bottle (2),Bottle,No,No,No,No
+Mana Potion,Lesser Mana Potion (2) + Glowing Mushroom (1),Bottle,No,No,No,No
+Lesser Restoration Potion,Lesser Healing Potion (1) + Lesser Mana Potion (1),Bottle,No,No,No,No
+Restoration Potion,Healing Potion (1) + Mana Potion (1),Bottle,No,No,No,No
+Obsidian Skin Potion,Bottled Water (1) + Fireblossom (1) + Waterleaf (1) + Obsidian (1),Bottle,No,No,No,No
+Regeneration Potion,Bottled Water (1) + Daybloom (1) + Mushroom (1),Bottle,No,No,No,No
+Swiftness Potion,Bottled Water (1) + Blinkroot (1) + Cactus (1),Bottle,No,No,No,No
+Gills Potion,Bottled Water (1) + Waterleaf (1) + Coral (1),Bottle,No,No,No,No
+Ironskin Potion,Bottled Water (1) + Daybloom (1) + Iron Ore (1),Bottle,No,No,No,No
+Ironskin Potion,Bottled Water (1) + Daybloom (1) + Lead Ore (1),Bottle,No,No,No,No
+Mana Regeneration Potion,Bottled Water (1) + Moonglow (1) + Daybloom (1) + Fallen Star (1),Bottle,No,No,No,No
+Magic Power Potion,Bottled Water (1) + Moonglow (1) + Deathweed (1) + Fallen Star (1),Bottle,No,No,No,No
+Featherfall Potion,Bottled Water (1) + Daybloom (1) + Blinkroot (1) + Feather (1),Bottle,No,No,No,No
+Spelunker Potion,Bottled Water (1) + Blinkroot (1) + Moonglow (1) + Gold Ore (1),Bottle,No,No,No,No
+Spelunker Potion,Bottled Water (1) + Blinkroot (1) + Moonglow (1) + Platinum Ore (1),Bottle,No,No,No,No
+Invisibility Potion,Bottled Water (1) + Blinkroot (1) + Moonglow (1),Bottle,No,No,No,No
+Shine Potion,Bottled Water (1) + Daybloom (1) + Glowing Mushroom (1),Bottle,No,No,No,No
+Night Owl Potion,Bottled Water (1) + Daybloom (1) + Blinkroot (1),Bottle,No,No,No,No
+Battle Potion,Bottled Water (1) + Deathweed (1) + Rotten Chunk (1),Bottle,No,No,No,No
+Thorns Potion,Bottled Water (1) + Deathweed (1) + Cactus (1) + Stinger (1),Bottle,No,No,No,No
+Water Walking Potion,Bottled Water (1) + Waterleaf (1) + Shark Fin (1),Bottle,No,No,No,No
+Archery Potion,Bottled Water (1) + Daybloom (1) + Lens (1),Bottle,No,No,No,No
+Hunter Potion,Bottled Water (1) + Daybloom (1) + Blinkroot (1) + Shark Fin (1),Bottle,No,No,No,No
+Gravitation Potion,Bottled Water (1) + Fireblossom (1) + Deathweed (1) + Blinkroot (1) + Feather (1),Bottle,No,No,No,No
+Flask of Poison,Bottled Water (1) + Stinger (5),Imbuing Station,No,No,No,No
+Flask of Fire,Bottled Water (1) + Hellstone (5),Imbuing Station,No,No,No,No
+Flask of Venom,Bottled Water (1) + Vial of Venom (5),Imbuing Station,No,No,No,No
+Flask of Gold,Bottled Water (1) + Gold Dust (5),Imbuing Station,No,No,No,No
+Flask of Ichor,Bottled Water (1) + Ichor (5),Imbuing Station,No,No,No,No
+Flask of Cursed Flames,Bottled Water (1) + Cursed Flame (5),Imbuing Station,No,No,No,No
+Flask of Nanites,Bottled Water (1) + Nanites (5),Imbuing Station,No,No,No,No
+Flask of Party,Bottled Water (1) + Confetti (5),Imbuing Station,No,No,No,No
+Snowball,Snow Block (1),,No,No,No,No
+Wooden Arrow,Wood (1) + Stone Block (1),Work Bench,No,No,No,Yes
+Flaming Arrow,Wooden Arrow (5) + Torch (1),,No,No,No,No
+Frostburn Arrow,Wooden Arrow (5) + Ice Torch (1),,No,No,No,No
+Jester's Arrow,Wooden Arrow (10) + Fallen Star (1),,No,No,No,No
+Unholy Arrow,Wooden Arrow (5) + Worm Tooth (1),Anvil,No,No,No,No
+Hellfire Arrow,Wooden Arrow (25) + Hellstone Bar (1) + Torch (5),Anvil,No,No,No,No
+Cursed Arrow,Wooden Arrow (35) + Cursed Flame (1),Mythril or Orichalcum Anvil,No,No,No,No
+Ichor Arrow,Wooden Arrow (35) + Ichor (1),Mythril or Orichalcum Anvil,No,No,No,No
+Holy Arrow,Wooden Arrow (45) + Pixie Dust (6) + Unicorn Horn (1),Mythril or Orichalcum Anvil,No,No,No,No
+Venom Arrow,Wooden Arrow (35) + Vial of Venom (1),Mythril or Orichalcum Anvil,No,No,No,No
+Meteor Shot,Musket Ball (70) + Meteorite Bar (1),Anvil,No,No,No,No
+Silver Bullet,Musket Ball (70) + Silver Bar (1),Anvil,No,No,No,No
+Crystal Bullet,Musket Ball (50) + Crystal Shard (1),Mythril or Orichalcum Anvil,No,No,No,No
+Cursed Bullet,Musket Ball (50) + Cursed Flame (1),Mythril or Orichalcum Anvil,No,No,No,No
+Ichor Bullet,Musket Ball (50) + Ichor (1),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Bullet,Musket Ball (70) + Chlorophyte Bar (1),Mythril or Orichalcum Anvil,No,No,No,No
+High Velocity Bullet,Empty Bullet (50) + Cog (1),Work Bench,No,No,No,No
+Party Bullet,Empty Bullet (50) + Confetti (1),Work Bench,No,No,No,No
+Nano Bullet,Empty Bullet (50) + Nanites (1),Work Bench,No,No,No,No
+Exploding Bullet,Empty Bullet (50) + Explosive Powder (1),Work Bench,No,No,No,No
+Golden Bullet,Empty Bullet (50) + Gold Dust (1),Work Bench,No,No,No,No
+Venom Bullet,Empty Bullet (50) + Vial of Venom (1),Work Bench,No,No,No,No
+Vile Powder,Vile Mushroom (1),Bottle,No,No,No,No
+Poisoned Knife,Throwing Knife (20) + Vile Powder (1),,No,No,No,No
+Wood Platform,Wood (1),,No,No,No,No
+Rich Mahogany Platform,Rich Mahogany (1),,No,No,No,No
+Ebonwood Platform,Ebonwood (1),,No,No,No,No
+Shadewood Platform,Shadewood (1),,No,No,No,No
+Pearlwood Platform,Pearlwood (1),,No,No,No,No
+Star in a Bottle,Bottle (1) + Fallen Star (1),,No,No,No,No
+Chinese Lantern,Silk (5) + Torch (1),Work Bench,No,No,No,No
+Tiki Torch,Torch (1) + Wood (3),Work Bench,No,No,No,Yes
+Lamp Post,Iron Bar (3) + Glass (2) + Torch (1),Anvil,No,No,Yes,No
+Skull Lantern,Bone (10) + Torch (1),Work Bench,No,No,No,No
+Rainbow Brick Wall,Rainbow Brick (1),Work Bench,No,No,No,No
+Rainbow Brick,Rainbow Brick Wall (4),Work Bench,No,No,No,No
+Clay Pot,Clay Block (6),Furnace,No,No,No,No
+Pink Vase,Clay Block (4),Furnace,No,No,No,No
+Bowl,Clay Block (2),Furnace,No,No,No,No
+Glass,Sand Block (2),Furnace,No,No,No,No
+Glass Wall,Glass (1),Work Bench,No,No,No,No
+Glass,Glass Wall (4),Work Bench,No,No,No,No
+Purple Stained Glass,Glass Wall (20) + Amethyst (1),Work Bench,No,No,No,No
+Yellow Stained Glass,Glass Wall (20) + Topaz (1),Work Bench,No,No,No,No
+Blue Stained Glass,Glass Wall (20) + Sapphire (1),Work Bench,No,No,No,No
+Green Stained Glass,Glass Wall (20) + Emerald (1),Work Bench,No,No,No,No
+Red Stained Glass,Glass Wall (20) + Ruby (1),Work Bench,No,No,No,No
+Multicolored Stained Glass,Glass Wall (50) + Amethyst (1) + Topaz (1) + Sapphire (1) + Emerald (1) + Ruby (1),Work Bench,No,No,No,No
+Asphalt Block,Stone Block (2) + Gel (1),Blend-O-Matic,No,No,No,No
+Gray Brick,Stone Block (2),Furnace,No,No,No,No
+Gray Brick Wall,Gray Brick (1),Work Bench,No,No,No,No
+Gray Brick,Gray Brick Wall (4),Work Bench,No,No,No,No
+Red Brick,Clay Block (2),Furnace,No,No,No,No
+Red Brick Wall,Red Brick (1),Work Bench,No,No,No,No
+Red Brick,Red Brick Wall (4),Work Bench,No,No,No,No
+Copper Brick,Stone Block (1) + Copper Ore (1),Furnace,No,No,No,No
+Copper Brick Wall,Copper Brick (1),Work Bench,No,No,No,No
+Copper Brick,Copper Brick Wall (4),Work Bench,No,No,No,No
+Silver Brick Wall,Silver Brick (1),Work Bench,No,No,No,No
+Silver Brick,Silver Brick Wall (4),Work Bench,No,No,No,No
+Silver Brick,Stone Block (1) + Silver Ore (1),Furnace,No,No,No,No
+Gold Brick Wall,Gold Brick (1),Work Bench,No,No,No,No
+Gold Brick,Gold Brick Wall (4),Work Bench,No,No,No,No
+Gold Brick,Stone Block (1) + Gold Ore (1),Furnace,No,No,No,No
+Tin Brick,Stone Block (1) + Tin Ore (1),Furnace,No,No,No,No
+Tin Brick Wall,Tin Brick (1),Work Bench,No,No,No,No
+Tin Brick,Tin Brick Wall (4),Work Bench,No,No,No,No
+Tungsten Brick Wall,Tungsten Brick (1),Work Bench,No,No,No,No
+Tungsten Brick,Tungsten Brick Wall (4),Work Bench,No,No,No,No
+Tungsten Brick,Stone Block (1) + Tungsten Ore (1),Furnace,No,No,No,No
+Platinum Brick Wall,Platinum Brick (1),Work Bench,No,No,No,No
+Platinum Brick,Platinum Brick Wall (4),Work Bench,No,No,No,No
+Platinum Brick,Stone Block (1) + Platinum Ore (1),Furnace,No,No,No,No
+Hellstone Brick,Hellstone (1) + Stone Block (1),Furnace,No,No,No,No
+Obsidian Brick,Obsidian (2),Furnace,No,No,No,No
+Obsidian Brick Wall,Obsidian Brick (1),Work Bench,No,No,No,No
+Obsidian Brick,Obsidian Brick Wall (4),Work Bench,No,No,No,No
+Demonite Brick Wall,Demonite Brick (1),Work Bench,No,No,No,No
+Demonite Brick,Demonite Brick Wall (4),Work Bench,No,No,No,No
+Snow Brick,Snow Block (2),Work Bench,No,No,No,No
+Snow Brick Wall,Snow Brick (1),Work Bench,No,No,No,No
+Snow Brick,Snow Brick Wall (4),Work Bench,No,No,No,No
+Ice Brick,Ice Block (2),Work Bench,No,No,No,No
+Ice Brick Wall,Ice Brick (1),Work Bench,No,No,No,No
+Ice Brick,Ice Brick Wall (4),Work Bench,No,No,No,No
+Candy Cane Wall,Candy Cane Block (1),Work Bench,No,No,No,No
+Candy Cane Block,Candy Cane Wall (4),Work Bench,No,No,No,No
+Green Candy Cane Wall,Green Candy Cane Block (1),Work Bench,No,No,No,No
+Green Candy Cane Block,Green Candy Cane Wall (4),Work Bench,No,No,No,No
+Sandstone Brick,Sand Block (1),Furnace,No,No,No,No
+Sandstone Brick Wall,Sandstone Brick (1),Work Bench,No,No,No,No
+Sandstone Brick,Sandstone Brick Wall (4),Work Bench,No,No,No,No
+Pearlstone Brick,Pearlsand Block (1) + Pearlstone Block (1),Furnace,No,No,No,No
+Pearlstone Brick Wall,Pearlstone Brick (1),Work Bench,No,No,No,No
+Pearlstone Brick,Pearlstone Brick Wall (4),Work Bench,No,No,No,No
+Ebonstone Brick,Ebonstone Block (2),Furnace,No,No,No,No
+Ebonstone Brick Wall,Ebonstone Brick (1),Work Bench,No,No,No,No
+Ebonstone Brick,Ebonstone Brick Wall (4),Work Bench,No,No,No,No
+Iridescent Brick,Stone Block (1) + Ash Block (1),Furnace,No,No,No,No
+Iridescent Brick Wall,Iridescent Brick (1),Work Bench,No,No,No,No
+Iridescent Brick,Iridescent Brick Wall (4),Work Bench,No,No,No,No
+Mudstone Block,Stone Block (1) + Mud Block (1),Furnace,No,No,No,No
+Mudstone Brick Wall,Mudstone Block (1),Work Bench,No,No,No,No
+Mudstone Block,Mudstone Brick Wall (4),Work Bench,No,No,No,No
+Red Stucco,Silt Block (1) + Clay Block (10),Furnace,No,No,No,No
+Red Stucco Wall,Red Stucco (1),Work Bench,No,No,No,No
+Red Stucco,Red Stucco Wall (4),Work Bench,No,No,No,No
+Yellow Stucco,Silt Block (1) + Sand Block (10),Furnace,No,No,No,No
+Yellow Stucco Wall,Yellow Stucco (1),Work Bench,No,No,No,No
+Yellow Stucco,Yellow Stucco Wall (4),Work Bench,No,No,No,No
+Green Stucco,Silt Block (1) + Stone Block (10) + Green Thread (1),Furnace,No,No,No,No
+Green Stucco Wall,Green Stucco (1),Work Bench,No,No,No,No
+Green Stucco,Green Stucco Wall (4),Work Bench,No,No,No,No
+Gray Stucco,Silt Block (1) + Stone Block (10),Furnace,No,No,No,No
+Gray Stucco Wall,Gray Stucco (1),Work Bench,No,No,No,No
+Gray Stucco,Gray Stucco Wall (4),Work Bench,No,No,No,No
+Cobalt Brick,Stone Block (1) + Cobalt Ore (1),Furnace,No,No,No,No
+Cobalt Brick Wall,Cobalt Brick (1),Work Bench,No,No,No,No
+Cobalt Brick,Cobalt Brick Wall (4),Work Bench,No,No,No,No
+Mythril Brick,Stone Block (1) + Mythril Ore (1),Furnace,No,No,No,No
+Mythril Brick Wall,Mythril Brick (1),Work Bench,No,No,No,No
+Mythril Brick,Mythril Brick Wall (4),Work Bench,No,No,No,No
+Adamantite Beam,Stone Block (1) + Adamantite Ore (1),Furnace,No,No,No,No
+Adamantite Beam Wall,Adamantite Beam (1),Work Bench,No,No,No,No
+Adamantite Beam,Adamantite Beam Wall (4),Work Bench,No,No,No,No
+Palladium Column,Stone Block (1) + Palladium Ore (1),Furnace,No,No,No,No
+Palladium Column Wall,Palladium Column (1),Work Bench,No,No,No,No
+Palladium Column,Palladium Column Wall (4),Work Bench,No,No,No,No
+Bubblegum Block,Stone Block (1) + Orichalcum Ore (1),Furnace,No,No,No,No
+Bubblegum Block Wall,Bubblegum Block (1),Work Bench,No,No,No,No
+Bubblegum Block,Bubblegum Block Wall (4),Work Bench,No,No,No,No
+Titanstone Block,Stone Block (1) + Titanium Ore (1),Furnace,No,No,No,No
+Titanstone Block Wall,Titanstone Block (1),Work Bench,No,No,No,No
+Titanstone Block,Titanstone Block Wall (4),Work Bench,No,No,No,No
+Demonite Brick,Demonite Ore (1) + Ebonstone Block (5),Furnace,No,No,No,No
+Mud Block,Dirt Block (1),,Yes,No,No,No
+Dirt Wall,Dirt Block (1),Work Bench,No,No,No,No
+Dirt Block,Dirt Wall (4),Work Bench,No,No,No,No
+Stone Wall,Stone Block (1),Work Bench,No,No,No,No
+Stone Block,Stone Wall (4),Work Bench,No,No,No,No
+Wood Wall,Wood (1),Work Bench,No,No,No,No
+Wood,Wood Wall (4),Work Bench,No,No,No,No
+Rich Mahogany Wall,Rich Mahogany (1),Work Bench,No,No,No,No
+Rich Mahogany,Rich Mahogany Wall (4),Work Bench,No,No,No,No
+Ebonwood Wall,Ebonwood (1),Work Bench,No,No,No,No
+Ebonwood,Ebonwood Wall (4),Work Bench,No,No,No,No
+Shadewood Wall,Shadewood (1),Work Bench,No,No,No,No
+Shadewood,Shadewood Wall (4),Work Bench,No,No,No,No
+Pearlwood Wall,Pearlwood (1),Work Bench,No,No,No,No
+Pearlwood,Pearlwood Wall (4),Work Bench,No,No,No,No
+Wooden Door,Wood (6),Work Bench,No,No,No,No
+Wooden Chair,Wood (4),Work Bench,No,No,No,No
+Chest,Wood (8) + Iron Bar (2),Work Bench,No,No,Yes,No
+Wooden Table,Wood (8),Work Bench,No,No,No,No
+Work Bench,Wood (10),,No,No,No,No
+Piano,Bone (4) + Wood (15) + Book (1),Sawmill,No,No,No,No
+Bed,Wood (15) + Silk (5),Sawmill,No,No,No,No
+Dresser,Wood (16),Sawmill,No,No,No,No
+Rich Mahogany Door,Rich Mahogany (6),Work Bench,No,No,No,No
+Rich Mahogany Chair,Rich Mahogany (4),Work Bench,No,No,No,No
+Rich Mahogany Chest,Rich Mahogany (8) + Iron Bar (2),Work Bench,No,No,Yes,No
+Rich Mahogany Table,Rich Mahogany (8),Work Bench,No,No,No,No
+Rich Mahogany Work Bench,Rich Mahogany (10),,No,No,No,No
+Rich Mahogany Piano,Bone (4) + Rich Mahogany (15) + Book (1),Sawmill,No,No,No,No
+Rich Mahogany Bed,Rich Mahogany (15) + Silk (5),Sawmill,No,No,No,No
+Rich Mahogany Dresser,Rich Mahogany (16),Sawmill,No,No,No,No
+Ebonwood Door,Ebonwood (6),Work Bench,No,No,No,No
+Ebonwood Chair,Ebonwood (4),Work Bench,No,No,No,No
+Ebonwood Chest,Ebonwood (8) + Iron Bar (2),Work Bench,No,No,Yes,No
+Ebonwood Table,Ebonwood (8),Work Bench,No,No,No,No
+Ebonwood Work Bench,Ebonwood (10),,No,No,No,No
+Ebonwood Piano,Bone (4) + Ebonwood (15) + Book (1),Sawmill,No,No,No,No
+Ebonwood Bed,Ebonwood (15) + Silk (5),Sawmill,No,No,No,No
+Ebonwood Dresser,Ebonwood (16),Sawmill,No,No,No,No
+Shadewood Door,Shadewood (6),Work Bench,No,No,No,No
+Shadewood Chair,Shadewood (4),Work Bench,No,No,No,No
+Shadewood Chest,Shadewood (8) + Iron Bar (2),Work Bench,No,No,Yes,No
+Shadewood Table,Shadewood (8),Work Bench,No,No,No,No
+Shadewood Work Bench,Shadewood (10),,No,No,No,No
+Shadewood Piano,Bone (4) + Shadewood (15) + Book (1),Sawmill,No,No,No,No
+Shadewood Bed,Shadewood (15) + Silk (5),Sawmill,No,No,No,No
+Shadewood Dresser,Shadewood (16),Sawmill,No,No,No,No
+Pearlwood Door,Pearlwood (6),Work Bench,No,No,No,No
+Pearlwood Chair,Pearlwood (4),Work Bench,No,No,No,No
+Pearlwood Chest,Pearlwood (8) + Iron Bar (2),Work Bench,No,No,Yes,No
+Pearlwood Table,Pearlwood (8),Work Bench,No,No,No,No
+Pearlwood Work Bench,Pearlwood (10),,No,No,No,No
+Pearlwood Piano,Bone (4) + Pearlwood (15) + Book (1),Sawmill,No,No,No,No
+Pearlwood Bed,Pearlwood (15) + Silk (5),Sawmill,No,No,No,No
+Pearlwood Dresser,Pearlwood (16),Sawmill,No,No,No,No
+Sign,Wood (6),Work Bench,No,No,No,Yes
+Wooden Fence,Wood (1),Work Bench,No,No,No,Yes
+Wood,Wooden Fence (4),Work Bench,No,No,No,No
+Metal Fence,Iron Bar (1),Anvil,No,No,Yes,No
+Iron Bar,Metal Fence (4),Anvil,No,No,No,No
+Planked Wall,Stone Block (1) + Wood (1),Sawmill,No,No,No,Yes
+Wooden Beam,Wood (1),Sawmill,No,No,No,Yes
+Mannequin,Wood (20),Sawmill,No,No,No,Yes
+Bookcase,Wood (20) + Book (10),Sawmill,No,No,No,Yes
+Barrel,Wood (9) + Iron Bar (1),Sawmill,No,No,Yes,Yes
+Grandfather Clock,Iron Bar (3) + Glass (6) + Wood (10),Sawmill,No,No,Yes,Yes
+Keg,Wood (14),Sawmill,No,No,No,Yes
+Loom,Wood (12),Sawmill,No,No,No,Yes
+Bench,Wood (8),Sawmill,No,No,No,Yes
+Sawmill,Wood (10) + Iron Bar (2) + Chain (1),Work Bench,No,No,Yes,Yes
+Wood Helmet,Wood (20),Work Bench,No,No,No,No
+Wood Breastplate,Wood (30),Work Bench,No,No,No,No
+Wood Greaves,Wood (25),Work Bench,No,No,No,No
+Wooden Sword,Wood (7),Work Bench,No,No,No,No
+Wooden Hammer,Wood (8),Work Bench,No,No,No,No
+Wooden Bow,Wood (10),Work Bench,No,No,No,No
+Rich Mahogany Helmet,Rich Mahogany (20),Work Bench,No,No,No,No
+Rich Mahogany Breastplate,Rich Mahogany (30),Work Bench,No,No,No,No
+Rich Mahogany Greaves,Rich Mahogany (25),Work Bench,No,No,No,No
+Rich Mahogany Sword,Rich Mahogany (7),Work Bench,No,No,No,No
+Rich Mahogany Hammer,Rich Mahogany (8),Work Bench,No,No,No,No
+Rich Mahogany Bow,Rich Mahogany (10),Work Bench,No,No,No,No
+Ebonwood Helmet,Ebonwood (20),Work Bench,No,No,No,No
+Ebonwood Breastplate,Ebonwood (30),Work Bench,No,No,No,No
+Ebonwood Greaves,Ebonwood (25),Work Bench,No,No,No,No
+Ebonwood Sword,Ebonwood (7),Work Bench,No,No,No,No
+Ebonwood Hammer,Ebonwood (8),Work Bench,No,No,No,No
+Ebonwood Bow,Ebonwood (10),Work Bench,No,No,No,No
+Shadewood Helmet,Shadewood (20),Work Bench,No,No,No,No
+Shadewood Breastplate,Shadewood (30),Work Bench,No,No,No,No
+Shadewood Greaves,Shadewood (25),Work Bench,No,No,No,No
+Shadewood Sword,Shadewood (7),Work Bench,No,No,No,No
+Shadewood Hammer,Shadewood (8),Work Bench,No,No,No,No
+Shadewood Bow,Shadewood (10),Work Bench,No,No,No,No
+Pearlwood Helmet,Pearlwood (20),Work Bench,No,No,No,No
+Pearlwood Breastplate,Pearlwood (30),Work Bench,No,No,No,No
+Pearlwood Greaves,Pearlwood (25),Work Bench,No,No,No,No
+Pearlwood Sword,Pearlwood (7),Work Bench,No,No,No,No
+Pearlwood Hammer,Pearlwood (8),Work Bench,No,No,No,No
+Pearlwood Bow,Pearlwood (10),Work Bench,No,No,No,No
+Cactus Helmet,Cactus (20),Work Bench,No,No,No,No
+Cactus Breastplate,Cactus (30),Work Bench,No,No,No,No
+Cactus Leggings,Cactus (25),Work Bench,No,No,No,No
+Cactus Sword,Cactus (10),Work Bench,No,No,No,No
+Cactus Pickaxe,Cactus (15),Work Bench,No,No,No,No
+Cactus Wall,Cactus (1),Work Bench,No,No,No,No
+Cactus,Cactus Wall (4),Work Bench,No,No,No,No
+Cactus Door,Cactus (6),Work Bench,No,No,No,No
+Cactus Chair,Cactus (4),Work Bench,No,No,No,No
+Cactus Work Bench,Cactus (10),,No,No,No,No
+Mushroom Wall,Glowing Mushroom (1),Work Bench,No,No,No,No
+Glowing Mushroom,Mushroom Wall (4),Work Bench,No,No,No,No
+Mushroom Door,Glowing Mushroom (6),Work Bench,No,No,No,No
+Mushroom Chair,Glowing Mushroom (4),Work Bench,No,No,No,No
+Mushroom Work Bench,Glowing Mushroom (10),,No,No,No,No
+Flesh Block,Crimstone Block (2),Meat Grinder,No,No,No,No
+Flesh Block Wall,Flesh Block (1),Work Bench,No,No,No,No
+Flesh Block,Flesh Block Wall (4),Work Bench,No,No,No,No
+Flesh Door,Flesh Block (6),Work Bench,No,No,No,No
+Flesh Chair,Flesh Block (4),Work Bench,No,No,No,No
+Flesh Work Bench,Flesh Block (10),,No,No,No,No
+Flesh Table,Flesh Block (8),Work Bench,No,No,No,No
+Slime Block,Gel (1),Solidifier,No,No,No,No
+Slime Block Wall,Slime Block (1),Work Bench,No,No,No,No
+Slime Block,Slime Block Wall (4),Work Bench,No,No,No,No
+Slime Work Bench,Slime Block (10),,No,No,No,No
+Bone Block Wall,Bone (1),Work Bench,No,No,No,No
+Bone,Bone Block Wall (4),Work Bench,No,No,No,No
+Bone Door,Bone (6),Work Bench,No,No,No,No
+Bone Chair,Bone (4),Work Bench,No,No,No,No
+Bone Work Bench,Bone (10),,No,No,No,No
+Bone Table,Bone (8),Work Bench,No,No,No,No
+Goblin Battle Standard,Tattered Cloth (10) + Wood (5),Loom,No,No,No,Yes
+Silk,Cobweb (7),Loom,No,No,No,No
+Red Banner,Silk (3),Loom,No,No,No,No
+Green Banner,Silk (3),Loom,No,No,No,No
+Blue Banner,Silk (3),Loom,No,No,No,No
+Yellow Banner,Silk (3),Loom,No,No,No,No
+Green Thread,Jungle Grass Seeds (3),Bottle,No,No,No,No
+Hero's Hat,Silk (20) + Green Thread (3),Loom,No,No,No,No
+Hero's Shirt,Silk (20) + Green Thread (3),Loom,No,No,No,No
+Hero's Pants,Silk (20) + Green Thread (3),Loom,No,No,No,No
+Tuxedo Shirt,Silk (20) + Black Thread (3),Loom,No,No,No,No
+Tuxedo Pants,Silk (20) + Black Thread (3),Loom,No,No,No,No
+Robe,Silk (20),Loom,No,No,No,No
+Amethyst Robe,Robe (1) + Amethyst (10),Loom,No,No,No,No
+Topaz Robe,Robe (1) + Topaz (10),Loom,No,No,No,No
+Sapphire Robe,Robe (1) + Sapphire (10),Loom,No,No,No,No
+Emerald Robe,Robe (1) + Emerald (10),Loom,No,No,No,No
+Ruby Robe,Robe (1) + Ruby (10),Loom,No,No,No,No
+Diamond Robe,Robe (1) + Diamond (10),Loom,No,No,No,No
+Leather,Rotten Chunk (5),Work Bench,No,No,No,No
+Archaeologist's Jacket,Leather (15),Work Bench,No,No,No,No
+Archaeologist's Pants,Leather (15),Work Bench,No,No,No,No
+Pink Eskimo Hood,Eskimo Hood (1) + Pink Thread (3),Work Bench,No,No,No,No
+Pink Eskimo Coat,Eskimo Coat (1) + Pink Thread (3),Work Bench,No,No,No,No
+Pink Eskimo Pants,Eskimo Pants (1) + Pink Thread (3),Work Bench,No,No,No,No
+Fish Bowl,Goldfish (2) + Bottled Water (1),Work Bench,No,No,No,No
+Furnace,Stone Block (20) + Wood (4) + Torch (3),Work Bench,No,No,No,Yes
+Armor Statue,Stone Block (100),Work Bench,No,No,No,No
+Copper Bar,Copper Ore (3),Furnace,No,No,No,No
+Copper Pickaxe,Copper Bar (12) + Wood (4),Anvil,No,No,No,Yes
+Copper Axe,Copper Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Copper Hammer,Copper Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Copper Broadsword,Copper Bar (8),Anvil,No,No,No,No
+Copper Shortsword,Copper Bar (7),Anvil,No,No,No,No
+Copper Bow,Copper Bar (7),Anvil,No,No,No,No
+Amethyst Staff,Copper Bar (10) + Amethyst (8),Anvil,No,No,No,No
+Copper Helmet,Copper Bar (15),Anvil,No,No,No,No
+Copper Chainmail,Copper Bar (25),Anvil,No,No,No,No
+Copper Greaves,Copper Bar (20),Anvil,No,No,No,No
+Copper Watch,Copper Bar (10) + Chain (1),Table + Chair,No,No,No,No
+Copper Chandelier,Copper Bar (4) + Torch (4) + Chain (1),Anvil,No,No,No,No
+Tin Bar,Tin Ore (3),Furnace,No,No,No,No
+Tin Pickaxe,Tin Bar (12) + Wood (4),Anvil,No,No,No,Yes
+Tin Axe,Tin Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Tin Hammer,Tin Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Tin Broadsword,Tin Bar (8),Anvil,No,No,No,No
+Tin Shortsword,Tin Bar (7),Anvil,No,No,No,No
+Tin Bow,Tin Bar (7),Anvil,No,No,No,No
+Topaz Staff,Tin Bar (10) + Topaz (8),Anvil,No,No,No,No
+Tin Helmet,Tin Bar (15),Anvil,No,No,No,No
+Tin Chainmail,Tin Bar (25),Anvil,No,No,No,No
+Tin Greaves,Tin Bar (20),Anvil,No,No,No,No
+Tin Watch,Tin Bar (10) + Chain (1),Table + Chair,No,No,No,No
+Tin Chandelier,Tin Bar (4) + Torch (4) + Chain (1),Anvil,No,No,No,No
+Iron Bar,Iron Ore (3),Furnace,No,No,No,No
+Iron Anvil,Iron Bar (5),Work Bench,No,No,No,No
+Iron Pickaxe,Iron Bar (12) + Wood (3),Anvil,No,No,No,Yes
+Iron Axe,Iron Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Iron Hammer,Iron Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Iron Broadsword,Iron Bar (8),Anvil,No,No,No,No
+Iron Shortsword,Iron Bar (7),Anvil,No,No,No,No
+Iron Bow,Iron Bar (7),Anvil,No,No,No,No
+Iron Helmet,Iron Bar (20),Anvil,No,No,No,No
+Iron Chainmail,Iron Bar (30),Anvil,No,No,No,No
+Iron Greaves,Iron Bar (25),Anvil,No,No,No,No
+Lead Bar,Lead Ore (3),Furnace,No,No,No,No
+Lead Anvil,Lead Bar (5),Work Bench,No,No,No,No
+Lead Pickaxe,Lead Bar (12) + Wood (3),Anvil,No,No,No,Yes
+Lead Axe,Lead Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Lead Hammer,Lead Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Lead Broadsword,Lead Bar (8),Anvil,No,No,No,No
+Lead Shortsword,Lead Bar (7),Anvil,No,No,No,No
+Lead Bow,Lead Bar (7),Anvil,No,No,No,No
+Lead Helmet,Lead Bar (20),Anvil,No,No,No,No
+Lead Chainmail,Lead Bar (30),Anvil,No,No,No,No
+Lead Greaves,Lead Bar (25),Anvil,No,No,No,No
+Empty Bucket,Iron Bar (3),Anvil,No,No,Yes,No
+Iron Door,Iron Bar (4),Anvil,No,No,No,No
+Lead Door,Lead Bar (4),Anvil,No,No,No,No
+Trash Can,Iron Bar (8),Anvil,No,No,Yes,No
+Bathtub,Iron Bar (14),Anvil,No,No,Yes,No
+Toilet,Iron Bar (6),Anvil,No,No,Yes,No
+Cooking Pot,Iron Bar (10) + Wood (2),Anvil,No,No,Yes,Yes
+Chain,Iron Bar (1),Anvil,No,No,Yes,No
+Silver Bar,Silver Ore (4),Furnace,No,No,No,No
+Silver Pickaxe,Silver Bar (12) + Wood (4),Anvil,No,No,No,Yes
+Silver Axe,Silver Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Silver Hammer,Silver Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Silver Broadsword,Silver Bar (8),Anvil,No,No,No,No
+Silver Shortsword,Silver Bar (6),Anvil,No,No,No,No
+Silver Bow,Silver Bar (7),Anvil,No,No,No,No
+Sapphire Staff,Silver Bar (10) + Sapphire (8),Anvil,No,No,No,No
+Silver Helmet,Silver Bar (20),Anvil,No,No,No,No
+Silver Chainmail,Silver Bar (30),Anvil,No,No,No,No
+Silver Greaves,Silver Bar (25),Anvil,No,No,No,No
+Silver Watch,Silver Bar (10) + Chain (1),Table + Chair,No,No,No,No
+Silver Chandelier,Silver Bar (4) + Torch (4) + Chain (1),Anvil,No,No,No,No
+Tungsten Bar,Tungsten Ore (4),Furnace,No,No,No,No
+Tungsten Pickaxe,Tungsten Bar (12) + Wood (4),Anvil,No,No,No,Yes
+Tungsten Axe,Tungsten Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Tungsten Hammer,Tungsten Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Tungsten Broadsword,Tungsten Bar (8),Anvil,No,No,No,No
+Tungsten Shortsword,Tungsten Bar (6),Anvil,No,No,No,No
+Tungsten Bow,Tungsten Bar (7),Anvil,No,No,No,No
+Emerald Staff,Tungsten Bar (10) + Emerald (8),Anvil,No,No,No,No
+Tungsten Helmet,Tungsten Bar (20),Anvil,No,No,No,No
+Tungsten Chainmail,Tungsten Bar (30),Anvil,No,No,No,No
+Tungsten Greaves,Tungsten Bar (25),Anvil,No,No,No,No
+Tungsten Watch,Tungsten Bar (10) + Chain (1),Table + Chair,No,No,No,No
+Tungsten Chandelier,Tungsten Bar (4) + Torch (4) + Chain (1),Anvil,No,No,No,No
+Gold Bar,Gold Ore (4),Furnace,No,No,No,No
+Gold Pickaxe,Gold Bar (12) + Wood (4),Anvil,No,No,No,Yes
+Gold Axe,Gold Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Gold Hammer,Gold Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Gold Broadsword,Gold Bar (8),Anvil,No,No,No,No
+Gold Shortsword,Gold Bar (7),Anvil,No,No,No,No
+Gold Bow,Gold Bar (7),Anvil,No,No,No,No
+Ruby Staff,Gold Bar (10) + Ruby (8),Anvil,No,No,No,No
+Gold Helmet,Gold Bar (25),Anvil,No,No,No,No
+Gold Chainmail,Gold Bar (35),Anvil,No,No,No,No
+Gold Greaves,Gold Bar (30),Anvil,No,No,No,No
+Gold Watch,Gold Bar (10) + Chain (1),Table + Chair,No,No,No,No
+Gold Crown,Gold Bar (30) + Ruby (1),Anvil,No,No,No,No
+Gold Chandelier,Gold Bar (4) + Torch (4) + Chain (1),Anvil,No,No,No,No
+Candle,Gold Bar (1) + Torch (1),Work Bench,No,No,No,No
+Candelabra,Gold Bar (5) + Torch (3),Work Bench,No,No,No,No
+Platinum Bar,Platinum Ore (4),Furnace,No,No,No,No
+Platinum Pickaxe,Platinum Bar (12) + Wood (4),Anvil,No,No,No,Yes
+Platinum Axe,Platinum Bar (9) + Wood (3),Anvil,No,No,No,Yes
+Platinum Hammer,Platinum Bar (10) + Wood (3),Anvil,No,No,No,Yes
+Platinum Broadsword,Platinum Bar (8),Anvil,No,No,No,No
+Platinum Shortsword,Platinum Bar (7),Anvil,No,No,No,No
+Platinum Bow,Platinum Bar (7),Anvil,No,No,No,No
+Diamond Staff,Platinum Bar (10) + Diamond (8),Anvil,No,No,No,No
+Platinum Helmet,Platinum Bar (25),Anvil,No,No,No,No
+Platinum Chainmail,Platinum Bar (35),Anvil,No,No,No,No
+Platinum Greaves,Platinum Bar (30),Anvil,No,No,No,No
+Platinum Watch,Platinum Bar (10) + Chain (1),Table + Chair,No,No,No,No
+Platinum Crown,Platinum Bar (30) + Ruby (1),Anvil,No,No,No,No
+Platinum Chandelier,Platinum Bar (4) + Torch (4) + Chain (1),Anvil,No,No,No,No
+Platinum Candle,Platinum Bar (1) + Torch (1),Work Bench,No,No,No,No
+Platinum Candelabra,Platinum Bar (5) + Torch (3),Work Bench,No,No,No,No
+Throne,Silk (20) + Gold Bar (30),Anvil,No,No,No,No
+Throne,Silk (20) + Platinum Bar (30),Anvil,No,No,No,No
+Demonite Bar,Demonite Ore (4),Furnace,No,No,No,No
+Demon Bow,Demonite Bar (8),Anvil,No,No,No,No
+War Axe of the Night,Demonite Bar (10),Anvil,No,No,No,No
+Light's Bane,Demonite Bar (10),Anvil,No,No,No,No
+Shadow Helmet,Demonite Bar (15) + Shadow Scale (10),Anvil,No,No,No,No
+Shadow Scalemail,Demonite Bar (25) + Shadow Scale (20),Anvil,No,No,No,No
+Shadow Greaves,Demonite Bar (20) + Shadow Scale (15),Anvil,No,No,No,No
+Nightmare Pickaxe,Demonite Bar (12) + Shadow Scale (6),Anvil,No,No,No,No
+The Breaker,Demonite Bar (10) + Shadow Scale (5),Anvil,No,No,No,No
+Crimtane Bar,Crimtane Ore (4),Furnace,No,No,No,No
+Tendon Bow,Crimtane Bar (8),Anvil,No,No,No,No
+Blood Lust Cluster,Crimtane Bar (10),Anvil,No,No,No,No
+Blood Butcherer,Crimtane Bar (10),Anvil,No,No,No,No
+Crimson Helmet,Crimtane Bar (15) + Tissue Sample (10),Anvil,No,No,No,No
+Crimson Scalemail,Crimtane Bar (25) + Tissue Sample (20),Anvil,No,No,No,No
+Crimson Greaves,Crimtane Bar (20) + Tissue Sample (15),Anvil,No,No,No,No
+Deathbringer Pickaxe,Crimtane Bar (12) + Tissue Sample (6),Anvil,No,No,No,No
+Meat Grinder,Crimtane Bar (10) + Tissue Sample (5),Anvil,No,No,No,No
+The Meatball,Crimtane Bar (10) + Tissue Sample (5),Anvil,No,No,No,No
+Grappling Hook,Chain (3) + Hook (1),Anvil,No,No,No,No
+Amethyst Hook,Amethyst (15),Anvil,No,No,No,No
+Topaz Hook,Topaz (15),Anvil,No,No,No,No
+Sapphire Hook,Sapphire (15),Anvil,No,No,No,No
+Emerald Hook,Emerald (15),Anvil,No,No,No,No
+Ruby Hook,Ruby (15),Anvil,No,No,No,No
+Diamond Hook,Diamond (15),Anvil,No,No,No,No
+Large Amethyst,Amethyst (15),Anvil,No,No,No,No
+Large Topaz,Topaz (15),Anvil,No,No,No,No
+Large Sapphire,Sapphire (15),Anvil,No,No,No,No
+Large Emerald,Emerald (15),Anvil,No,No,No,No
+Large Ruby,Ruby (15),Anvil,No,No,No,No
+Large Diamond,Diamond (15),Anvil,No,No,No,No
+Meteorite Bar,Meteorite (3),Furnace,No,No,No,No
+Blue Phaseblade,Meteorite Bar (20) + Sapphire (10),Anvil,No,No,No,No
+Red Phaseblade,Meteorite Bar (20) + Ruby (10),Anvil,No,No,No,No
+Green Phaseblade,Meteorite Bar (20) + Emerald (10),Anvil,No,No,No,No
+Purple Phaseblade,Meteorite Bar (20) + Amethyst (10),Anvil,No,No,No,No
+White Phaseblade,Meteorite Bar (20) + Diamond (10),Anvil,No,No,No,No
+Yellow Phaseblade,Meteorite Bar (20) + Topaz (10),Anvil,No,No,No,No
+Blue Phasesaber,Blue Phaseblade (1) + Crystal Shard (50),Anvil,No,No,No,No
+Red Phasesaber,Red Phaseblade (1) + Crystal Shard (50),Anvil,No,No,No,No
+Green Phasesaber,Green Phaseblade (1) + Crystal Shard (50),Anvil,No,No,No,No
+Purple Phasesaber,Purple Phaseblade (1) + Crystal Shard (50),Anvil,No,No,No,No
+White Phasesaber,White Phaseblade (1) + Crystal Shard (50),Anvil,No,No,No,No
+Yellow Phasesaber,Yellow Phaseblade (1) + Crystal Shard (50),Anvil,No,No,No,No
+Meteor Hamaxe,Meteorite Bar (35),Anvil,No,No,No,No
+Space Gun,Meteorite Bar (30) + Fallen Star (2),Anvil,No,No,No,No
+Star Cannon,Minishark (1) + Meteorite Bar (20) + Fallen Star (5),Anvil,No,No,No,No
+Meteor Helmet,Meteorite Bar (15),Anvil,No,No,No,No
+Meteor Suit,Meteorite Bar (25),Anvil,No,No,No,No
+Meteor Leggings,Meteorite Bar (20),Anvil,No,No,No,No
+Necro Helmet,Bone (40) + Cobweb (40),Work Bench,No,No,No,No
+Necro Breastplate,Bone (60) + Cobweb (50),Work Bench,No,No,No,No
+Necro Greaves,Bone (50) + Cobweb (45),Work Bench,No,No,No,No
+Blade of Grass,Jungle Spores (12) + Stinger (15),Anvil,No,No,No,No
+Poison Dart,Stinger (1),,No,No,No,No
+Thorn Chakram,Jungle Spores (6) + Stinger (15),Anvil,No,No,No,No
+Ivy Whip,Jungle Spores (12) + Vine (3),Anvil,No,No,No,No
+Jungle Hat,Jungle Spores (8),Anvil,No,No,No,No
+Jungle Shirt,Jungle Spores (16) + Stinger (12),Anvil,No,No,No,No
+Jungle Pants,Jungle Spores (8) + Vine (2),Anvil,No,No,No,No
+Hellstone Bar,Hellstone (3) + Obsidian (1),Hellforge,No,No,No,No
+Flamarang,Hellstone Bar (10) + Enchanted Boomerang (1),Anvil,No,No,No,No
+Molten Fury,Hellstone Bar (15),Anvil,No,No,No,No
+Fiery Greatsword,Hellstone Bar (20),Anvil,No,No,No,No
+Molten Pickaxe,Hellstone Bar (20),Anvil,No,No,No,No
+Molten Hamaxe,Hellstone Bar (15),Anvil,No,No,No,No
+Phoenix Blaster,Hellstone Bar (10) + Handgun (1),Anvil,No,No,No,No
+Molten Helmet,Hellstone Bar (10),Anvil,No,No,No,No
+Molten Breastplate,Hellstone Bar (20),Anvil,No,No,No,No
+Molten Greaves,Hellstone Bar (15),Anvil,No,No,No,No
+Night's Edge,Light's Bane (1) + Muramasa (1) + Blade of Grass (1) + Fiery Greatsword (1),Demon Altar,No,No,No,No
+Night's Edge,Blood Butcherer (1) + Muramasa (1) + Blade of Grass (1) + Fiery Greatsword (1),Demon Altar,No,No,No,No
+True Night's Edge,Night's Edge (1) + Broken Hero Sword (1),Mythril or Orichalcum Anvil,No,No,No,No
+True Excalibur,Excalibur (1) + Broken Hero Sword (1),Mythril or Orichalcum Anvil,No,No,No,No
+Terra Blade,True Night's Edge (1) + True Excalibur (1) + Broken Hero Sword (1),Mythril or Orichalcum Anvil,No,No,No,No
+Dao of Pow,Dark Shard (1) + Light Shard (1) + Soul of Night (7) + Soul of Light (7),Mythril or Orichalcum Anvil,No,No,No,No
+Cobalt Bar,Cobalt Ore (3),Furnace,No,No,No,No
+Cobalt Helmet,Cobalt Bar (10),Anvil,No,No,No,No
+Cobalt Mask,Cobalt Bar (10),Anvil,No,No,No,No
+Cobalt Hat,Cobalt Bar (10),Anvil,No,No,No,No
+Cobalt Breastplate,Cobalt Bar (20),Anvil,No,No,No,No
+Cobalt Leggings,Cobalt Bar (15),Anvil,No,No,No,No
+Cobalt Drill,Cobalt Bar (15),Anvil,No,No,No,No
+Cobalt Pickaxe,Cobalt Bar (15),Anvil,No,No,No,No
+Cobalt Chainsaw,Cobalt Bar (10),Anvil,No,No,No,No
+Cobalt Waraxe,Cobalt Bar (10),Anvil,No,No,No,No
+Cobalt Repeater,Cobalt Bar (10),Anvil,No,No,No,No
+Cobalt Sword,Cobalt Bar (10),Anvil,No,No,No,No
+Cobalt Naginata,Cobalt Bar (10),Anvil,No,No,No,No
+Palladium Bar,Palladium Ore (3),Furnace,No,No,No,No
+Palladium Mask,Palladium Bar (10),Anvil,No,No,No,No
+Palladium Helmet,Palladium Bar (10),Anvil,No,No,No,No
+Palladium Headgear,Palladium Bar (10),Anvil,No,No,No,No
+Palladium Breastplate,Palladium Bar (20),Anvil,No,No,No,No
+Palladium Leggings,Palladium Bar (15),Anvil,No,No,No,No
+Palladium Drill,Palladium Bar (15),Anvil,No,No,No,No
+Palladium Pickaxe,Palladium Bar (15),Anvil,No,No,No,No
+Palladium Chainsaw,Palladium Bar (10),Anvil,No,No,No,No
+Palladium Waraxe,Palladium Bar (10),Anvil,No,No,No,No
+Palladium Repeater,Palladium Bar (10),Anvil,No,No,No,No
+Palladium Sword,Palladium Bar (10),Anvil,No,No,No,No
+Palladium Pike,Palladium Bar (10),Anvil,No,No,No,No
+Mythril Bar,Mythril Ore (4),Furnace,No,No,No,No
+Mythril Helmet,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Hat,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Hood,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Chainmail,Mythril Bar (20),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Greaves,Mythril Bar (15),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Drill,Mythril Bar (15),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Pickaxe,Mythril Bar (15),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Chainsaw,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Waraxe,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Repeater,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Sword,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Halberd,Mythril Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Mythril Anvil,Mythril Bar (10),Anvil,No,No,No,No
+Orichalcum Bar,Orichalcum Ore (4),Furnace,No,No,No,No
+Orichalcum Mask,Orichalcum Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Helmet,Orichalcum Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Headgear,Orichalcum Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Breastplate,Orichalcum Bar (20),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Leggings,Orichalcum Bar (15),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Drill,Orichalcum Bar (15),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Pickaxe,Orichalcum Bar (15),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Chainsaw,Orichalcum Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Waraxe,Orichalcum Bar (10),Anvil,No,No,No,No
+Orichalcum Repeater,Orichalcum Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Sword,Orichalcum Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Halberd,Orichalcum Bar (10),Mythril or Orichalcum Anvil,No,No,No,No
+Orichalcum Anvil,Orichalcum Bar (10),Anvil,No,No,No,No
+Adamantite Bar,Adamantite Ore (5),Adamantite or Titanium Forge,No,No,No,No
+Adamantite Helmet,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Mask,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Headgear,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Breastplate,Adamantite Bar (24),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Leggings,Adamantite Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Drill,Adamantite Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Pickaxe,Adamantite Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Chainsaw,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Waraxe,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Repeater,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Sword,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Glaive,Adamantite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Adamantite Forge,Adamantite Ore (30) + Hellforge (1),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Bar,Titanium Ore (5),Adamantite or Titanium Forge,No,No,No,No
+Titanium Mask,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Helmet,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Headgear,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Breastplate,Titanium Bar (24),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Leggings,Titanium Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Drill,Titanium Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Pickaxe,Titanium Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Chainsaw,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Waraxe,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Repeater,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Sword,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Trident,Titanium Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Titanium Forge,Titanium Ore (30) + Hellforge (1),Mythril or Orichalcum Anvil,No,No,No,No
+Hallowed Mask,Hallowed Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Hallowed Helmet,Hallowed Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Hallowed Headgear,Hallowed Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Hallowed Plate Mail,Hallowed Bar (24),Mythril or Orichalcum Anvil,No,No,No,No
+Hallowed Greaves,Hallowed Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Drax,Hallowed Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Pickaxe Axe,Hallowed Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Hallowed Repeater,Hallowed Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Excalibur,Hallowed Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Gungnir,Hallowed Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Bar,Chlorophyte Ore (6),Adamantite or Titanium Forge,No,No,No,No
+Chlorophyte Helmet,Chlorophyte Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Mask,Chlorophyte Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Headgear,Chlorophyte Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Plate Mail,Chlorophyte Bar (24),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Greaves,Chlorophyte Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Drill,Chlorophyte Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Pickaxe,Chlorophyte Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Chainsaw,Chlorophyte Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Greataxe,Chlorophyte Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Jackhammer,Chlorophyte Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Warhammer,Chlorophyte Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Shotbow,Chlorophyte Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Saber,Chlorophyte Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Claymore,Chlorophyte Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Partisan,Chlorophyte Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Chlorophyte Arrow,Chlorophyte Bar (1),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Hood,Ectoplasm (12),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Robe,Ectoplasm (24),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Pants,Ectoplasm (18),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Pickaxe,Ectoplasm (18),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Hamaxe,Ectoplasm (18),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Paintbrush,Ectoplasm (8),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Paint Roller,Ectoplasm (8),Mythril or Orichalcum Anvil,No,No,No,No
+Spectre Paint Scraper,Ectoplasm (8),Mythril or Orichalcum Anvil,No,No,No,No
+Turtle Helmet,Chlorophyte Bar (12) + Turtle Shell (1),Mythril or Orichalcum Anvil,No,No,No,No
+Turtle Scale Mail,Chlorophyte Bar (24) + Turtle Shell (1),Mythril or Orichalcum Anvil,No,No,No,No
+Turtle Leggings,Chlorophyte Bar (18) + Turtle Shell (1),Mythril or Orichalcum Anvil,No,No,No,No
+Shroomite Bar,Chlorophyte Bar (1) + Glowing Mushroom (15),Autohammer,No,No,No,No
+Shroomite Headgear,Shroomite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Shroomite Mask,Shroomite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Shroomite Helmet,Shroomite Bar (12),Mythril or Orichalcum Anvil,No,No,No,No
+Shroomite Breastplate,ddddddddddddddar,Mythril or Orichalcum Anvil,No,No,No,No
+Shroomite Leggings,Shroomite Bar (18),Mythril or Orichalcum Anvil,No,No,No,No
+Megashark,Minishark (1) + Illegal Gun Parts (1) + Shark Fin (5) + Soul of Might (20),Mythril or Orichalcum Anvil,No,No,No,No
+Light Disc,Hallowed Bar (4) + Soul of Light (3) + Soul of Might (5),Mythril or Orichalcum Anvil,No,No,No,No
+Flamethrower,Iron Bar (20) + Illegal Gun Parts (1) + Soul of Fright (20),Mythril or Orichalcum Anvil,No,No,Yes,No
+Magical Harp,Harp (1) + Crystal Shard (25) + Soul of Night (12) + Soul of Sight (20),Mythril or Orichalcum Anvil,No,No,No,No
+Fairy Bell,Bell (1) + Pixie Dust (80) + Soul of Light (12) + Soul of Sight (20),Mythril or Orichalcum Anvil,No,No,No,No
+Neptune's Shell,Coral (15) + Shark Fin (5) + Goldfish (15) + Soul of Light (5) + Soul of Night (5) + Soul of Fright (20),Mythril or Orichalcum Anvil,No,No,No,No
+Rainbow Rod,Crystal Shard (30) + Unicorn Horn (4) + Pixie Dust (60) + Soul of Light (10) + Soul of Sight (20),Mythril or Orichalcum Anvil,No,No,No,No
+Angel Wings,Feather (10) + Soul of Flight (20) + Soul of Light (25),Mythril or Orichalcum Anvil,No,No,No,No
+Demon Wings,Feather (10) + Soul of Flight (20) + Soul of Night (25),Mythril or Orichalcum Anvil,No,No,No,No
+Fairy Wings,Soul of Flight (20) + Pixie Dust (100),Mythril or Orichalcum Anvil,No,No,No,No
+Harpy Wings,Soul of Flight (20) + Giant Harpey Feather (1),Mythril or Orichalcum Anvil,No,No,No,No
+Butterfly Wings,Soul of Flight (20) + Butterfly Dust (1),Mythril or Orichalcum Anvil,No,No,No,No
+Bone Wings,Soul of Flight (20) + Bone Feather (1),Mythril or Orichalcum Anvil,No,No,No,No
+Flame Wings,Soul of Flight (20) + Fire Feather (1),Mythril or Orichalcum Anvil,No,No,No,No
+Frozen Wings,Soul of Flight (20) + Ice Feather (1),Mythril or Orichalcum Anvil,No,No,No,No
+Bat Wings,Soul of Flight (20) + Broken Bat Wing (1),Mythril or Orichalcum Anvil,No,No,No,No
+Bee Wings,Soul of Flight (20) + Tattered Bee Wing (1),Mythril or Orichalcum Anvil,No,No,No,No
+Ghost Wings,Soul of Flight (20) + Ectoplasm (1),Mythril or Orichalcum Anvil,No,No,No,No
+Deep Red Paint,Red Paint (2),Dye Vat,No,No,No,No
+Deep Orange Paint,Orange Paint (2),Dye Vat,No,No,No,No
+Deep Yellow Paint,Yellow Paint (2),Dye Vat,No,No,No,No
+Deep Lime Paint,Lime Paint (2),Dye Vat,No,No,No,No
+Deep Green Paint,Green Paint (2),Dye Vat,No,No,No,No
+Deep Teal Paint,Teal Paint (2),Dye Vat,No,No,No,No
+Deep Cyan Paint,Cyan Paint (2),Dye Vat,No,No,No,No
+Deep Sky Blue Paint,Sky Blue Paint (2),Dye Vat,No,No,No,No
+Deep Blue Paint,Blue Paint (2),Dye Vat,No,No,No,No
+Deep Purple Paint,Purple Paint (2),Dye Vat,No,No,No,No
+Deep Red Paint,Violet Paint (2),Dye Vat,No,No,No,No
+Deep Violet Paint,Pink Paint (2),Dye Vat,No,No,No,No
+Red Dye,Red Husk (1),Dye Vat,No,No,No,No
+Orange Dye,Orange Bloodroot (1),Dye Vat,No,No,No,No
+Yellow Dye,Yellow Marigold (1),Dye Vat,No,No,No,No
+Lime Dye,Lime Kelp (1),Dye Vat,No,No,No,No
+Green Dye,Green Mushroom (1),Dye Vat,No,No,No,No
+Teal Dye,Teal Mushroom (1),Dye Vat,No,No,No,No
+Cyan Dye,Cyan Husk (1),Dye Vat,No,No,No,No
+Sky Blue Dye,Sky Blue Flower (1),Dye Vat,No,No,No,No
+Blue Dye,Blue Berries (1),Dye Vat,No,No,No,No
+Purple Dye,Purple Mucos (1),Dye Vat,No,No,No,No
+Violet Dye,Violet Husk (1),Dye Vat,No,No,No,No
+Pink Dye,Pink Prickly Pear (1),Dye Vat,No,No,No,No
+Black Dye,Black Ink (1),Dye Vat,No,No,No,No
+Flame Dye,Red Dye (1) + Orange Dye (1) + Yellow Dye (1),Dye Vat,No,No,No,No
+Green Flame Dye,Yellow Dye (1) + Lime Dye (1) + Green Dye (1),Dye Vat,No,No,No,No
+Blue Flame Dye,Cyan Dye (1) + Sky Blue Dye (1) + Blue Dye (1),Dye Vat,No,No,No,No
+Intense Flame Dye,Flame Dye (2),Dye Vat,No,No,No,No
+Intense Green Flame Dye,Green Flame Dye (2),Dye Vat,No,No,No,No
+Intense Blue Flame Dye,Blue Flame Dye (2),Dye Vat,No,No,No,No
+Flame and Black Dye,Flame Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Green Flame and Black Dye,Green Flame Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Blue Flame and Black Dye,Blue Flame Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Yellow Gradient Dye,Orange Dye (1) + Yellow Dye (1) + Lime Dye (1),Dye Vat,No,No,No,No
+Cyan Gradient Dye,Teal Dye (1) + Cyan Dye (1) + Sky Blue Dye (1),Dye Vat,No,No,No,No
+Violet Gradient Dye,Purple Dye (1) + Violet Dye (1) + Pink Dye (1),Dye Vat,No,No,No,No
+Rainbow Dye,Yellow Gradient Dye (1) + Cyan Gradient Dye (1) + Violet Gradient Dye (1),Dye Vat,No,No,No,No
+Intense Rainbow Dye,Rainbow Dye (2),Dye Vat,No,No,No,No
+Red and Black Dye,Red Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Orange and Black Dye,Orange Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Yellow and Black Dye,Yellow Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Lime and Black Dye,Lime Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Green and Black Dye,Green Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Teal and Black Dye,Teal Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Cyan and Black Dye,Cyan Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Sky Blue and Black Dye,Sky Blue Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Blue and Black Dye,Blue Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Purple and Black Dye,Purple Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Violet and Black Dye,Violet Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Pink and Black Dye,Pink Dye (1) + Black Dye (1),Dye Vat,No,No,No,No
+Bright Red Dye,Red Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Orange Dye,Orange Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Yellow Dye,Yellow Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Lime Dye,Lime Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Green Dye,Green Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Teal Dye,Teal Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Cyan Dye,Cyan Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Sky Blue Dye,Sky Blue Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Blue Dye,Blue Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Purple Dye,Purple Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Violet Dye,Violet Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Bright Pink Dye,Pink Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Red and Silver Dye,Red Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Orange and Silver Dye,Orange Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Yellow and Silver Dye,Yellow Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Lime and Silver Dye,Lime Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Green and Silver Dye,Green Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Teal and Silver Dye,Teal Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Cyan and Silver Dye,Cyan Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Sky Blue and Silver Dye,Sky Blue Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Blue and Silver Dye,Blue Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Purple and Silver Dye,Purple Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Violet and Silver Dye,Violet Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Pink and Silver Dye,Pink Dye (1) + Silver Dye (1),Dye Vat,No,No,No,No
+Diving Gear,Flipper (1) + Diving Helmet (1),Tinkerer's Workshop,No,No,No,No
+GPS,Gold Watch (1) + Depth Meter (1) + Compass (1),Tinkerer's Workshop,No,No,No,No
+GPS,Platinum Watch (1) + Depth Meter (1) + Compass (1),Tinkerer's Workshop,No,No,No,No
+Obsidian Horseshoe,Lucky Horseshoe (1) + Obsidian Skull (1),Tinkerer's Workshop,No,No,No,No
+Obsidian Shield,Cobalt Shield (1) + Obsidian Skull (1),Tinkerer's Workshop,No,No,No,No
+Ankh Shield,Obsidian Shield (1) + Ankh Charm (1),Tinkerer's Workshop,No,No,No,No
+Cloud in a Balloon,Cloud in a Bottle (1) + Shiny Red Balloon (1),Tinkerer's Workshop,No,No,No,No
+Blizzard in a Balloon,Blizzard in a Bottle (1) + Shiny Red Balloon (1),Tinkerer's Workshop,No,No,No,No
+Sandstorm in a Balloon,Sandstorm in a Bottle (1) + Shiny Red Balloon (1),Tinkerer's Workshop,No,No,No,No
+Blue Horseshoe Balloon,Cloud in a Balloon (1) + Lucky Horseshoe (1),Tinkerer's Workshop,No,No,No,No
+White Horseshoe Balloon,Blizzard in a Balloon (1) + Lucky Horseshoe (1),Tinkerer's Workshop,No,No,No,No
+Yellow Horseshoe Balloon,Sandstorm in a Balloon (1) + Lucky Horseshoe (1),Tinkerer's Workshop,No,No,No,No
+Bundle of Balloons,Cloud in a Balloon (1) + Blizzard in a Balloon (1) + Sandstorm in a Balloon (1),Tinkerer's Workshop,No,No,No,No
+Spectre Boots,Hermes Boots (1) + Rocket Boots (1),Tinkerer's Workshop,No,No,No,No
+Spectre Boots,Flurry Boots (1) + Rocket Boots (1),Tinkerer's Workshop,No,No,No,No
+Lightning Boots,Spectre Boots (1) + Anklet of the Wind (1) + Aglet (1),Tinkerer's Workshop,No,No,No,No
+Obsidian Water Walking Boots,Water Walking Boots (1) + Obsidian Skull (1),Tinkerer's Workshop,No,No,No,No
+Lava Waders,Obsidian Water Walking Boots (1) + Lava Charm (1),Tinkerer's Workshop,No,No,No,No
+Mana Flower,Nature's Gift (1) + Mana Potion (1),Tinkerer's Workshop,No,No,No,No
+Power Glove,Titan Glove (1) + Feral Claws (1),Tinkerer's Workshop,No,No,No,No
+Mechanical Glove,Power Glove (1) + Avenger Emblem (1),Tinkerer's Workshop,No,No,No,No
+Fire Gauntlet,Magma Stone (1) + Mechanical Glove (1),Tinkerer's Workshop,No,No,No,No
+Mana Regeneration Band,Band of Starpower (1) + Band of Regeneration (1),Tinkerer's Workshop,No,No,No,No
+Magic Cuffs,Mana Regeneration Band (1) + Shackle (1),Tinkerer's Workshop,No,No,No,No
+Charm of Myths,Band of Regeneration (1) + Philosopher's Stone (1),Tinkerer's Workshop,No,No,No,No
+Moon Shell,Moon Charm (1) + Neptune's Shell (1),Tinkerer's Workshop,No,No,No,No
+Star Veil,Star Cloak (1) + Cross Necklace (1),Tinkerer's Workshop,No,No,No,No
+Bee Cloak,Honey Comb (1) + Star Cloak (1),Tinkerer's Workshop,No,No,No,No
+Sweetheart Necklace,Honey Comb (1) + Panic Necklace (1),Tinkerer's Workshop,No,No,No,No
+Tiger Climbing Gear,Climbing Claws (1) + Shoe Spikes (1),Tinkerer's Workshop,No,No,No,No
+Master Ninja Gear,Tiger Climbing Gear (1) + Tabi (1) + Black Belt (1),Tinkerer's Workshop,No,No,No,No
+Armor Bracing,Armor Polish (1) + Vitamins (1),Tinkerer's Workshop,No,No,No,No
+Medicated Bandage,Bezoar (1) + Adhesive Bandage (1),Tinkerer's Workshop,No,No,No,No
+The Plan,Fast Clock (1) + Trifold Map (1),Tinkerer's Workshop,No,No,No,No
+Countercurse Mantra,Megaphone (1) + Nazar (1),Tinkerer's Workshop,No,No,No,No
+Ankh Charm,Armor Bracing (1) + Medicated Bandage (1) + The Plan (1) + Countercurse Mantra (1) + Blindfold (1),Tinkerer's Workshop,No,No,No,No
+Avenger Emblem,Sorcerer Emblem (1) + Warrior Emblem (1) + Ranger Emblem (1),Tinkerer's Workshop,No,No,No,No
+Destroyer Emblem,Avenger Emblem (1) + Eye of the Golem (1),Tinkerer's Workshop,No,No,No,No
+Obsidian Skull,Obsidian (20),Furnace,No,No,No,No
+Crystal Storm,Spell Tome (1) + Crystal Shard (30) + Soul of Light (15),Bookcase,No,No,No,No
+Cursed Flames,Spell Tome (1) + Cursed Flame (30) + Soul of Night (15),Bookcase,No,No,No,No
+Golden Shower,Spell Tome (1) + Ichor (30) + Soul of Night (15),Bookcase,No,No,No,No
+Goggles,Lens (2),Work Bench + Chair,No,No,No,No
+Sandgun,Illegal Gun Parts (1) + Antlion Mandible (10) + Topaz (5),Furnace,No,No,No,No
+Sunglasses,Black Lens (2),Work Bench + Chair,No,No,No,No
+Mana Crystal,Fallen Star (5),,No,No,No,No
+Active Stone Block,Stone Block (1) + Wire (1),,No,No,No,No
+Inactive Stone Block,Stone Wall (4) + Wire (1),,No,No,No,No
+Explosives,Dynamite (3) + Wire (1),,No,No,No,No
+Inlet Pump,Iron Bar (10) + Wire (2),Anvil,No,No,Yes,No
+Outlet Pump,Iron Bar (10) + Wire (2),Anvil,No,No,Yes,No
+1 Second Timer,Gold Watch (1) + Wire (1),Anvil,No,No,No,No
+1 Second Timer,Platinum Watch (1) + Wire (1),Anvil,No,No,No,No
+3 Second Timer,Silver Watch (1) + Wire (1),Anvil,No,No,No,No
+3 Second Timer,Tungsten Watch (1) + Wire (1),Anvil,No,No,No,No
+5 Second Timer,Copper Watch (1) + Wire (1),Anvil,No,No,No,No
+5 Second Timer,Tin Watch (1) + Wire (1),Anvil,No,No,No,No
+Boulder,Stone Block (6),Tinkerer's Workshop,No,No,No,No
+Music Box (Title),Music Box (Overworld Day) (1) + Music Box (Eerie) (1) + Music Box (Night) (1) + Music Box (Underground) (1) + Music Box (Boss 1) (1) + Music Box (Jungle) (1) + Music Box (Corruption) (1) + Music Box (Underground Corruption) (1) + Music Box (The Hallow) (1) + Music Box (Boss 2) (1) + Music Box (Underground Hallow) (1) + Music Box (Boss 3) (1),Tinkerer's Workshop,No,No,No,No
+Suspicious Looking Eye,Lens (6),Demon Altar,No,No,No,No
+Worm Food,Vile Powder (30) + Rotten Chunk (15),Demon Altar,No,No,No,No
+Bloody Spine,Vertebrae (15),Demon Altar,No,No,No,No
+Abeemination,Honey Block (5) + Crispy Honey Block (3) + Stinger (1) + Hive (5) + Obsidian (2) + Bottled Honey (1),Demon Altar,No,No,No,No
+Slime Crown,Gel (99) + Gold Crown (1),Demon Altar,No,No,No,No
+Slime Crown,Gel (99) + Platinum Crown (1),Demon Altar,No,No,No,No
+Mechanical Eye,Lens (3) + Iron Bar (5) + Soul of Light (6),Mythril or Orichalcum Anvil,No,No,Yes,No
+Mechanical Worm,Rotten Chunk (6) + Iron Bar (5) + Soul of Night (6),Mythril or Orichalcum Anvil,No,No,Yes,No
+Mechanical Worm,Vertebrae (6) + Iron Bar (5) + Soul of Night (6),Mythril or Orichalcum Anvil,No,No,Yes,No
+Mechanical Skull,Bone (30) + Iron Bar (5) + Soul of Light (3) + Soul of Night (3),Mythril or Orichalcum Anvil,No,No,Yes,No
+Copper Coin,Silver Coin (1),,No,No,No,No
+Silver Coin,Copper Coin (100),,No,No,No,No
+Silver Coin,Gold Coin (1),,No,No,No,No
+Gold Coin,Silver Coin (100),,No,No,No,No
+Gold Coin,Platinum Coin (1),,No,No,No,No
+Platinum Coin,Gold Coin (100),,No,No,No,No

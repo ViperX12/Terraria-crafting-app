@@ -62,7 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // The persistent store coordinator for the application. This implementation creates and returns a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
         // Create the coordinator and store
         let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
-        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
+        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreDataSuper.sqlite")
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
             try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
@@ -107,11 +107,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
-    func parseCSV (contentsOfURL: NSURL, encoding: NSStringEncoding, error: NSErrorPointer) -> [(name:String, craftingRecipe:String)]? {
+    func parseCSV (contentsOfURL: NSURL, encoding: NSStringEncoding, error: NSErrorPointer) -> [(name:String, craftingRecipe:String, requiredTiles:String, needWater:String, needHoney:String, anyIronBar:String, anyWood:String)]? {
         
         // Load the CSV file and parse it
         let delimiter = ","
-        var items:[(name:String, craftingRecipe:String)]?
+        var items:[(name:String, craftingRecipe:String, requiredTiles:String, needWater:String, needHoney:String, anyIronBar:String, anyWood:String)]?
         
         do {
             let content = try String(contentsOfURL: contentsOfURL, encoding: encoding)
@@ -124,40 +124,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 if line != "" {
                     // For a line with double quotes
                     // we use NSScanner to perform the parsing
-                    if line.rangeOfString("\"") != nil {
-                        var textToScan:String = line
-                        var value:NSString?
-                        var textScanner:NSScanner = NSScanner(string: textToScan)
-                        while textScanner.string != "" {
-                            
-                            if (textScanner.string as NSString).substringToIndex(1) == "\"" {
-                                textScanner.scanLocation += 1
-                                textScanner.scanUpToString("\"", intoString: &value)
-                                textScanner.scanLocation += 1
-                            } else {
-                                textScanner.scanUpToString(delimiter, intoString: &value)
-                            }
-                            
-                            // Store the value into the values array
-                            values.append(value as! String)
-                            
-                            // Retrieve the unscanned remainder of the string
-                            if textScanner.scanLocation < textScanner.string.characters.count {
-                                textToScan = (textScanner.string as NSString).substringFromIndex(textScanner.scanLocation + 1)
-                            } else {
-                                textToScan = ""
-                            }
-                            textScanner = NSScanner(string: textToScan)
-                        }
-                        
-                        // For a line without double quotes, we can simply separate the string
-                        // by using the delimiter (e.g. comma)
-                    } else  {
-                        values = line.componentsSeparatedByString(delimiter)
-                    }
+                    
+                    
+                    values = line.componentsSeparatedByString(delimiter)
+                    
                     
                     // Put the values into the tuple and add it to the items array
-                    let item = (name: values[0], craftingRecipe: values[1])
+                    let item = (name: values[0], craftingRecipe: values[1], requiredTiles: values[2], needWater: values[3], needHoney: values[4], anyIronBar: values[5], anyWood: values[6])
                     items?.append(item)
                 }
             }
@@ -172,7 +145,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func preloadData () {
         // Retrieve data from the source file
         
-        if let contentsOfURL = NSBundle.mainBundle().URLForResource("itemData", withExtension: "csv") {
+        if let contentsOfURL = NSBundle.mainBundle().URLForResource("ItemDataSuper", withExtension: "csv") {
             // Remove all the menu items before preloading
             removeData()
             
@@ -184,7 +157,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         let currentItem = NSEntityDescription.insertNewObjectForEntityForName("Items", inManagedObjectContext: managedObjectContext) as! Items
                         currentItem.name = item.name
                         currentItem.craftingRecipe = item.craftingRecipe
-                        
+                        currentItem.requiredTiles = item.requiredTiles
+                        currentItem.needWater = item.needWater
+                        currentItem.needHoney = item.needHoney
+                        currentItem.anyIronBar = item.anyIronBar
+                        currentItem.anyWood = item.anyWood
+
                         do {
                             try managedObjectContext.save()
                         } catch {

@@ -13,4 +13,9 @@ import CoreData
 class Items: NSManagedObject {
     @NSManaged var name:String?
     @NSManaged var craftingRecipe:String?
+    @NSManaged var requiredTiles:String?
+    @NSManaged var needWater:String?
+    @NSManaged var needHoney:String?
+    @NSManaged var anyIronBar:String?
+    @NSManaged var anyWood:String?
 }
