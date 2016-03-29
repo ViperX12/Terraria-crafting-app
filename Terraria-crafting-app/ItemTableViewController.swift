@@ -24,6 +24,8 @@ class ItemTableViewController: UITableViewController {
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
         tableView.tableHeaderView = searchController.searchBar
+        searchController.searchBar.scopeButtonTitles = ["By Name", "By Recipe"]
+        searchController.searchBar.delegate = self
         
         // Load menu items from database
         if let managedObjectContext = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext {
@@ -82,7 +84,12 @@ class ItemTableViewController: UITableViewController {
     
     func filterContentForSearchText(searchText: String, scope: String = "All") {
         filteredItems = itemsList.filter { Items in
-            return Items.name!.lowercaseString.containsString(searchText.lowercaseString)
+            if (scope == "By Recipe"){
+                return Items.craftingRecipe!.lowercaseString.containsString(searchText.lowercaseString)
+            }
+            else {
+                return Items.name!.lowercaseString.containsString(searchText.lowercaseString)
+            }
         }
         
         tableView.reloadData()
@@ -114,6 +121,14 @@ class ItemTableViewController: UITableViewController {
 
 extension ItemTableViewController: UISearchResultsUpdating {
     func updateSearchResultsForSearchController(searchController: UISearchController) {
-        filterContentForSearchText(searchController.searchBar.text!)
+        let searchBar = searchController.searchBar
+        let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
+        filterContentForSearchText(searchController.searchBar.text!, scope: scope)
+    }
+}
+
+extension ItemTableViewController: UISearchBarDelegate {
+    func searchBar(searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+        filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
     }
 }
