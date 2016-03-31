@@ -12,13 +12,31 @@ import CoreData
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var recipeLabel: UILabel!
+    @IBOutlet weak var csLabel: UILabel!
+    @IBOutlet weak var waterInfoLabel: UILabel!
+    @IBOutlet weak var honeyInfoLabel: UILabel!
+    
     var detailItem : Items!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        recipeLabel.text = detailItem.craftingRecipe
+        // Do any additional setup after loading the view.s
+        self.title = detailItem.name
+        
+        recipeLabel.text = detailItem.craftingRecipe!
+        recipeLabel.numberOfLines = 0
+        recipeLabel.adjustsFontSizeToFitWidth = true
+        
+        if (detailItem.requiredTiles != ""){
+            csLabel.text = detailItem.requiredTiles
+        }
+        else {
+            csLabel.text = "No station required"
+        }
+        waterInfoLabel.text = detailItem.needWater
+        honeyInfoLabel.text = detailItem.needHoney
+        
     }
 
     override func didReceiveMemoryWarning() {

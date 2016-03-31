@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Item Table View Controller-->
@@ -22,22 +23,15 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fop-Bo-hCs">
-                                            <rect key="frame" x="5" y="8" width="123" height="21"/>
+                                            <rect key="frame" x="5" y="8" width="234" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1S-9c-2Dv">
-                                            <rect key="frame" x="247" y="8" width="128" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="NameLabel" destination="fop-Bo-hCs" id="9ki-n0-H7H"/>
-                                    <outlet property="RecipeLabel" destination="W1S-9c-2Dv" id="AT5-Ws-BEW"/>
                                     <segue destination="9sz-v5-Ag2" kind="show" identifier="showDetail" id="HfK-HR-I2k"/>
                                 </connections>
                             </tableViewCell>
@@ -65,21 +59,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLb-cL-KfJ">
-                                <rect key="frame" x="274" y="250" width="52" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crafting recipe:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMU-W0-jBI">
+                                <rect key="frame" x="16" y="95" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crafting Station:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cz-wJ-Hhf">
+                                <rect key="frame" x="10" y="137" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CS Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="250" translatesAutoresizingMaskIntoConstraints="NO" id="v9l-xu-cEL">
+                                <rect key="frame" x="154" y="137" width="56" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Needs Water?:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMU-80-2fN">
+                                <rect key="frame" x="26" y="166" width="120" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Needs Honey?:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Na-tj-guL">
+                                <rect key="frame" x="20" y="195" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WaterInfo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgW-yi-r4f">
+                                <rect key="frame" x="154" y="166" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HoneyInfo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmN-mW-oJU">
+                                <rect key="frame" x="154" y="195" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipe Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="250" translatesAutoresizingMaskIntoConstraints="NO" id="QLb-cL-KfJ">
+                                <rect key="frame" x="154" y="95" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="QLb-cL-KfJ" firstAttribute="top" secondItem="nSI-aD-kuc" secondAttribute="bottom" constant="186" id="gKm-cK-wc9"/>
-                            <constraint firstItem="QLb-cL-KfJ" firstAttribute="centerX" secondItem="sQE-0g-Tio" secondAttribute="centerX" id="hHG-aj-sLf"/>
+                            <constraint firstItem="OMU-W0-jBI" firstAttribute="top" secondItem="nSI-aD-kuc" secondAttribute="bottom" constant="31" id="4tc-Gw-Kwv"/>
+                            <constraint firstItem="UMU-80-2fN" firstAttribute="top" secondItem="5cz-wJ-Hhf" secondAttribute="bottom" constant="8" symbolic="YES" id="Ie9-Rt-E18"/>
+                            <constraint firstItem="UMU-80-2fN" firstAttribute="baseline" secondItem="pgW-yi-r4f" secondAttribute="baseline" id="NHc-U7-lad"/>
+                            <constraint firstItem="5cz-wJ-Hhf" firstAttribute="top" secondItem="OMU-W0-jBI" secondAttribute="bottom" constant="21" id="UYZ-BC-CmG"/>
+                            <constraint firstItem="OMU-W0-jBI" firstAttribute="leading" secondItem="sQE-0g-Tio" secondAttribute="leadingMargin" constant="-4" id="XPn-rL-Pku"/>
+                            <constraint firstItem="OMU-W0-jBI" firstAttribute="baseline" secondItem="QLb-cL-KfJ" secondAttribute="baseline" id="Xe6-op-YIw"/>
+                            <constraint firstItem="tmN-mW-oJU" firstAttribute="leading" secondItem="1Na-tj-guL" secondAttribute="trailing" constant="8" symbolic="YES" id="Z4V-Cz-rIw"/>
+                            <constraint firstItem="1Na-tj-guL" firstAttribute="baseline" secondItem="tmN-mW-oJU" secondAttribute="baseline" id="ZvK-rj-AAi"/>
+                            <constraint firstItem="pgW-yi-r4f" firstAttribute="leading" secondItem="UMU-80-2fN" secondAttribute="trailing" constant="8" symbolic="YES" id="c46-Pq-Aa9"/>
+                            <constraint firstItem="QLb-cL-KfJ" firstAttribute="top" secondItem="nSI-aD-kuc" secondAttribute="bottom" constant="31" id="cCk-4Q-C3q"/>
+                            <constraint firstItem="pgW-yi-r4f" firstAttribute="leading" secondItem="v9l-xu-cEL" secondAttribute="leading" id="eQF-5J-mFR"/>
+                            <constraint firstItem="UMU-80-2fN" firstAttribute="leading" secondItem="sQE-0g-Tio" secondAttribute="leadingMargin" constant="6" id="iTn-gJ-2zx"/>
+                            <constraint firstItem="QLb-cL-KfJ" firstAttribute="leading" secondItem="OMU-W0-jBI" secondAttribute="trailing" constant="8" symbolic="YES" id="kJi-gK-YcQ"/>
+                            <constraint firstItem="v9l-xu-cEL" firstAttribute="baseline" secondItem="5cz-wJ-Hhf" secondAttribute="baseline" id="p6R-go-7TS"/>
+                            <constraint firstItem="v9l-xu-cEL" firstAttribute="leading" secondItem="5cz-wJ-Hhf" secondAttribute="trailing" constant="8" symbolic="YES" id="sux-Sl-2b8"/>
+                            <constraint firstItem="pgW-yi-r4f" firstAttribute="leading" secondItem="tmN-mW-oJU" secondAttribute="leading" id="vQK-Xo-nWE"/>
+                            <constraint firstItem="1Na-tj-guL" firstAttribute="top" secondItem="UMU-80-2fN" secondAttribute="bottom" constant="8" symbolic="YES" id="wY7-Za-CQ4"/>
+                            <constraint firstItem="v9l-xu-cEL" firstAttribute="leading" secondItem="QLb-cL-KfJ" secondAttribute="leading" id="xwo-hN-ho0"/>
+                            <constraint firstItem="1Na-tj-guL" firstAttribute="leading" secondItem="sQE-0g-Tio" secondAttribute="leadingMargin" id="zff-Jx-PAf"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="csLabel" destination="v9l-xu-cEL" id="tEq-CA-o5j"/>
+                        <outlet property="honeyInfoLabel" destination="tmN-mW-oJU" id="zO5-gG-RDk"/>
                         <outlet property="recipeLabel" destination="QLb-cL-KfJ" id="xm8-DY-Uz7"/>
+                        <outlet property="waterInfoLabel" destination="pgW-yi-r4f" id="22y-Ld-WmW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mw7-0r-AKU" userLabel="First Responder" sceneMemberID="firstResponder"/>

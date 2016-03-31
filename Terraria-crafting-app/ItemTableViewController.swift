@@ -19,6 +19,8 @@ class ItemTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Search"
+        
         // Setup search bar
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
@@ -70,11 +72,9 @@ class ItemTableViewController: UITableViewController {
         
         if searchController.active && searchController.searchBar.text != "" {
             cell.NameLabel.text = filteredItems[indexPath.row].name
-            cell.RecipeLabel.text = filteredItems[indexPath.row].craftingRecipe
         }
         else {
             cell.NameLabel.text = itemsList[indexPath.row].name
-            cell.RecipeLabel.text = itemsList[indexPath.row].craftingRecipe
         }
         
         return cell
