@@ -23,6 +23,7 @@ class DetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.s
         self.title = detailItem.name
+        self.view.backgroundColor = TerrariaBlue
         
         recipeLabel.text = detailItem.craftingRecipe!
         recipeLabel.numberOfLines = 0

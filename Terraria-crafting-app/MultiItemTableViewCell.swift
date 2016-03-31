@@ -1,16 +1,16 @@
 //
-//  ItemTableViewCell.swift
+//  MultiItemTableViewCell.swift
 //  Terraria-crafting-app
 //
-//  Created by Giovanni on 2016-03-22.
+//  Created by Giovanni on 2016-03-31.
 //  Copyright © 2016 Giovanni. All rights reserved.
 //
 
 import UIKit
 
-class ItemTableViewCell: UITableViewCell {
+class MultiItemTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var NameLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,5 +23,5 @@ class ItemTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }

@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4EAC801CAD98BC0087492F /* MultiItemSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EAC7F1CAD98BC0087492F /* MultiItemSearchViewController.swift */; };
+		AC4EAC821CAD9AE90087492F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EAC811CAD9AE90087492F /* Globals.swift */; };
+		AC4EAC841CADB8B00087492F /* MultiItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EAC831CADB8B00087492F /* MultiItemTableViewController.swift */; };
+		AC4EAC861CADBE0D0087492F /* MultiItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EAC851CADBE0D0087492F /* MultiItemTableViewCell.swift */; };
 		AC51CA261CA75CDD009F5765 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51CA251CA75CDD009F5765 /* DetailViewController.swift */; };
 		AC593CDA1CA22C7800D2014B /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC593CD91CA22C7800D2014B /* ItemTableViewCell.swift */; };
 		ACA0329E1CA8CD0C005550DC /* ItemDataSuper.csv in Resources */ = {isa = PBXBuildFile; fileRef = ACA0329D1CA8CD0C005550DC /* ItemDataSuper.csv */; };
 		ACAFDA461C9F91A300BBA441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */; };
-		ACAFDA481C9F91A300BBA441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA471C9F91A300BBA441 /* ViewController.swift */; };
+		ACAFDA481C9F91A300BBA441 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA471C9F91A300BBA441 /* MainViewController.swift */; };
 		ACAFDA4B1C9F91A300BBA441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAFDA491C9F91A300BBA441 /* Main.storyboard */; };
 		ACAFDA4E1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACAFDA4C1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld */; };
 		ACAFDA501C9F91A300BBA441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAFDA4F1C9F91A300BBA441 /* Assets.xcassets */; };
@@ -41,12 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC4EAC7F1CAD98BC0087492F /* MultiItemSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiItemSearchViewController.swift; sourceTree = "<group>"; };
+		AC4EAC811CAD9AE90087492F /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		AC4EAC831CADB8B00087492F /* MultiItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiItemTableViewController.swift; sourceTree = "<group>"; };
+		AC4EAC851CADBE0D0087492F /* MultiItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiItemTableViewCell.swift; sourceTree = "<group>"; };
 		AC51CA251CA75CDD009F5765 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AC593CD91CA22C7800D2014B /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		ACA0329D1CA8CD0C005550DC /* ItemDataSuper.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ItemDataSuper.csv; sourceTree = "<group>"; };
 		ACAFDA421C9F91A300BBA441 /* Terraria-crafting-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terraria-crafting-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACAFDA471C9F91A300BBA441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACAFDA471C9F91A300BBA441 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ACAFDA4A1C9F91A300BBA441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACAFDA4D1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Terraria_crafting_app.xcdatamodel; sourceTree = "<group>"; };
 		ACAFDA4F1C9F91A300BBA441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,10 +120,14 @@
 			isa = PBXGroup;
 			children = (
 				ACAFDA451C9F91A300BBA441 /* AppDelegate.swift */,
-				ACAFDA471C9F91A300BBA441 /* ViewController.swift */,
 				ACD0B8B81CA10DAC00543523 /* ItemTableViewController.swift */,
 				AC593CD91CA22C7800D2014B /* ItemTableViewCell.swift */,
+				AC4EAC851CADBE0D0087492F /* MultiItemTableViewCell.swift */,
 				AC51CA251CA75CDD009F5765 /* DetailViewController.swift */,
+				ACAFDA471C9F91A300BBA441 /* MainViewController.swift */,
+				AC4EAC831CADB8B00087492F /* MultiItemTableViewController.swift */,
+				AC4EAC7F1CAD98BC0087492F /* MultiItemSearchViewController.swift */,
+				AC4EAC811CAD9AE90087492F /* Globals.swift */,
 				ACAFDA491C9F91A300BBA441 /* Main.storyboard */,
 				ACAFDA4F1C9F91A300BBA441 /* Assets.xcassets */,
 				ACAFDA511C9F91A300BBA441 /* LaunchScreen.storyboard */,
@@ -279,13 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAFDA481C9F91A300BBA441 /* ViewController.swift in Sources */,
+				ACAFDA481C9F91A300BBA441 /* MainViewController.swift in Sources */,
 				ACD0B8BB1CA10E0A00543523 /* Items.swift in Sources */,
 				ACAFDA4E1C9F91A300BBA441 /* Terraria_crafting_app.xcdatamodeld in Sources */,
 				ACD0B8B91CA10DAC00543523 /* ItemTableViewController.swift in Sources */,
+				AC4EAC841CADB8B00087492F /* MultiItemTableViewController.swift in Sources */,
 				AC593CDA1CA22C7800D2014B /* ItemTableViewCell.swift in Sources */,
+				AC4EAC801CAD98BC0087492F /* MultiItemSearchViewController.swift in Sources */,
 				ACAFDA461C9F91A300BBA441 /* AppDelegate.swift in Sources */,
+				AC4EAC861CADBE0D0087492F /* MultiItemTableViewCell.swift in Sources */,
 				AC51CA261CA75CDD009F5765 /* DetailViewController.swift in Sources */,
+				AC4EAC821CAD9AE90087492F /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

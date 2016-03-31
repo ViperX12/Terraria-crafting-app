@@ -16,10 +16,12 @@ class ItemTableViewController: UITableViewController {
     var fetchResultController:NSFetchedResultsController!
     let searchController = UISearchController(searchResultsController: nil)
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Search"
+        self.tableView.backgroundColor = TerrariaBlue
         
         // Setup search bar
         searchController.searchResultsUpdater = self
@@ -28,6 +30,7 @@ class ItemTableViewController: UITableViewController {
         tableView.tableHeaderView = searchController.searchBar
         searchController.searchBar.scopeButtonTitles = ["By Name", "By Recipe"]
         searchController.searchBar.delegate = self
+        searchController.searchBar.barTintColor = TerrariaGreen
         
         // Load menu items from database
         if let managedObjectContext = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext {
@@ -40,6 +43,9 @@ class ItemTableViewController: UITableViewController {
                 print(error)
             }
         }
+        
+        // Sort items alphabetically by name
+        itemsList = itemsList.sort{$0.name < $1.name}
         
         // Make the cell self size
         tableView.estimatedRowHeight = 66.0

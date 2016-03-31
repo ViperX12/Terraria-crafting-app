@@ -115,7 +115,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         do {
             let content = try String(contentsOfURL: contentsOfURL, encoding: encoding)
-            print(content)
+            //print(content)
             items = []
             let lines:[String] = content.componentsSeparatedByCharactersInSet(NSCharacterSet.newlineCharacterSet()) as [String]
             
@@ -125,9 +125,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     // For a line with double quotes
                     // we use NSScanner to perform the parsing
                     
-                    
                     values = line.componentsSeparatedByString(delimiter)
-                    
                     
                     // Put the values into the tuple and add it to the items array
                     let item = (name: values[0], craftingRecipe: values[1], requiredTiles: values[2], needWater: values[3], needHoney: values[4], anyIronBar: values[5], anyWood: values[6])
