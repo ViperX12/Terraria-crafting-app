@@ -24,6 +24,8 @@ class ItemTableViewController: UITableViewController {
         self.tableView.backgroundColor = TerrariaBlue
         
         // Setup search bar
+        self.searchController.loadViewIfNeeded()
+
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
@@ -46,10 +48,6 @@ class ItemTableViewController: UITableViewController {
         
         // Sort items alphabetically by name
         itemsList = itemsList.sort{$0.name < $1.name}
-        
-        // Make the cell self size
-        tableView.estimatedRowHeight = 66.0
-        tableView.rowHeight = UITableViewAutomaticDimension
     }
 
     override func didReceiveMemoryWarning() {
