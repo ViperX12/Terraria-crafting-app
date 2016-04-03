@@ -816,12 +816,9 @@ Inactive Stone Block,Stone Wall (4) + Wire (1),,No,No,No,No
 Explosives,Dynamite (3) + Wire (1),,No,No,No,No
 Inlet Pump,Iron Bar (10) + Wire (2),Anvil,No,No,Yes,No
 Outlet Pump,Iron Bar (10) + Wire (2),Anvil,No,No,Yes,No
-1 Second Timer,Gold Watch (1) + Wire (1),Anvil,No,No,No,No
-1 Second Timer,Platinum Watch (1) + Wire (1),Anvil,No,No,No,No
-3 Second Timer,Silver Watch (1) + Wire (1),Anvil,No,No,No,No
-3 Second Timer,Tungsten Watch (1) + Wire (1),Anvil,No,No,No,No
-5 Second Timer,Copper Watch (1) + Wire (1),Anvil,No,No,No,No
-5 Second Timer,Tin Watch (1) + Wire (1),Anvil,No,No,No,No
+1 Second Timer,Gold Watch (1) + Wire (1) OR Platinum Watch (1) + Wire (1),Anvil,No,No,No,No
+3 Second Timer,Silver Watch (1) + Wire (1) OR Tungsten Watch (1) + Wire,Anvil,No,No,No,No
+5 Second Timer,Copper Watch (1) + Wire (1) OR Tin Watch (1) + Wire (1),Anvil,No,No,No,No
 Boulder,Stone Block (6),Tinkerer's Workshop,No,No,No,No
 Music Box (Title),Music Box (Overworld Day) (1) + Music Box (Eerie) (1) + Music Box (Night) (1) + Music Box (Underground) (1) + Music Box (Boss 1) (1) + Music Box (Jungle) (1) + Music Box (Corruption) (1) + Music Box (Underground Corruption) (1) + Music Box (The Hallow) (1) + Music Box (Boss 2) (1) + Music Box (Underground Hallow) (1) + Music Box (Boss 3) (1),Tinkerer's Workshop,No,No,No,No
 Suspicious Looking Eye,Lens (6),Demon Altar,No,No,No,No
@@ -840,4 +837,4 @@ Silver Coin,Gold Coin (1),,No,No,No,No
 Gold Coin,Silver Coin (100),,No,No,No,No
 Gold Coin,Platinum Coin (1),,No,No,No,No
 Platinum Coin,Gold Coin (100),,No,No,No,No
-Gel,Not craftable,,No,No,No,No
+Gel,Not craftable,,N/A,N/A,N/A,N/A

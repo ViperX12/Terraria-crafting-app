@@ -33,6 +33,7 @@ class MultiItemSearchViewController: UIViewController {
                 print("Failed to retrieve record")
                 print(error)
             }
+            
         }
         
         //Looks for single or multiple taps.
