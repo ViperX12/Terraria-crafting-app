@@ -10,5 +10,5 @@ import Foundation
 import UIKit
 
 // App colours
-let TerrariaGreen = UIColor(red: 0, green: 212/255, blue: 32/255, alpha: 1)
-let TerrariaBlue = UIColor(red: 219/255, green: 229/255, blue: 1, alpha: 1)
+let TerrariaGreen = UIColor(red: 1, green: 255/255, blue: 255/255, alpha: 1)
+let TerrariaBlue = UIColor(red: 255/255, green: 255/255, blue: 1, alpha: 1)

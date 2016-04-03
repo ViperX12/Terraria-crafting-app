@@ -16,7 +16,7 @@ class MainViewController: UIViewController {
             button1.layer.borderWidth = 1
             button1.layer.backgroundColor = TerrariaGreen.CGColor
             button1.layer.borderColor = UIColor.blackColor().CGColor
-            button1.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+            button1.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         }
     }
     
@@ -26,7 +26,7 @@ class MainViewController: UIViewController {
             button2.layer.borderWidth = 1
             button2.layer.borderColor = UIColor.blackColor().CGColor
             button2.layer.backgroundColor = TerrariaGreen.CGColor
-            button2.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+            button2.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         }
     }
 
@@ -41,5 +41,7 @@ class MainViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 }
 

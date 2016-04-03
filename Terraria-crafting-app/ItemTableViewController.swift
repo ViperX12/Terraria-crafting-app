@@ -20,7 +20,6 @@ class ItemTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Search"
         self.tableView.backgroundColor = TerrariaBlue
         
         // Setup search bar

@@ -34,6 +34,10 @@ class MultiItemSearchViewController: UIViewController {
                 print(error)
             }
         }
+        
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
 
     }
 
@@ -54,13 +58,13 @@ class MultiItemSearchViewController: UIViewController {
         
         while (i < length){
             if (itemsList[i].name == itemInput1.text){
-                input1 = itemInput1.text!
+                input1 = itemInput1.text! + " "
             }
             if (itemsList[i].name == itemInput2.text){
-                input2 = itemInput2.text!
+                input2 = itemInput2.text! + " "
             }
             if (itemsList[i].name == itemInput3.text){
-                input3 = itemInput3.text!
+                input3 = itemInput3.text! + " "
             }
             i++
         }
@@ -69,6 +73,7 @@ class MultiItemSearchViewController: UIViewController {
         
         for items in itemsList{
             if (items.craftingRecipe?.rangeOfString(inputs[0]) != nil && items.craftingRecipe?.rangeOfString(inputs[1]) != nil && items.craftingRecipe?.rangeOfString(inputs[2]) != nil){
+                print(items.craftingRecipe?.rangeOfString(inputs[2]))
                 filteredItems.append(items)
             }
         }
@@ -86,6 +91,11 @@ class MultiItemSearchViewController: UIViewController {
         }
     }
 
+    //Calls this function when the tap is recognized.
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
     /*
     // MARK: - Navigation
 
