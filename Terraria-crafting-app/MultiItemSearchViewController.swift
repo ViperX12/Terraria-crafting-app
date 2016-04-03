@@ -21,7 +21,7 @@ class MultiItemSearchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = TerrariaBlue
+        self.view.backgroundColor = TerrariaWhite
         
         // Load menu items from database
         if let managedObjectContext = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext {
@@ -36,7 +36,7 @@ class MultiItemSearchViewController: UIViewController {
             
         }
         
-        //Looks for single or multiple taps.
+        //Looks for single or multiple taps
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
 
@@ -57,6 +57,7 @@ class MultiItemSearchViewController: UIViewController {
         var input2 = " "
         var input3 = " "
         
+        // Check if enter items actually exist, filter out if they don't or if string is empty
         while (i < length){
             if (itemsList[i].name == itemInput1.text){
                 input1 = itemInput1.text! + " "
@@ -72,9 +73,9 @@ class MultiItemSearchViewController: UIViewController {
 
         let inputs = [input1, input2, input3]
         
+        // Return recipes which include ALL of the searched items
         for items in itemsList{
             if (items.craftingRecipe?.rangeOfString(inputs[0]) != nil && items.craftingRecipe?.rangeOfString(inputs[1]) != nil && items.craftingRecipe?.rangeOfString(inputs[2]) != nil){
-                print(items.craftingRecipe?.rangeOfString(inputs[2]))
                 filteredItems.append(items)
             }
         }
@@ -92,19 +93,9 @@ class MultiItemSearchViewController: UIViewController {
         }
     }
 
-    //Calls this function when the tap is recognized.
+    // Closes keyboard when you tap off of it
     func dismissKeyboard() {
-        //Causes the view (or one of its embedded text fields) to resign the first responder status.
         view.endEditing(true)
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

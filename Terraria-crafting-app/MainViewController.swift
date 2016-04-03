@@ -14,7 +14,7 @@ class MainViewController: UIViewController {
         didSet{
             button1.layer.cornerRadius = 5
             button1.layer.borderWidth = 1
-            button1.layer.backgroundColor = TerrariaGreen.CGColor
+            button1.layer.backgroundColor = TerrariaWhite.CGColor
             button1.layer.borderColor = UIColor.blackColor().CGColor
             button1.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         }
@@ -25,7 +25,7 @@ class MainViewController: UIViewController {
             button2.layer.cornerRadius = 5
             button2.layer.borderWidth = 1
             button2.layer.borderColor = UIColor.blackColor().CGColor
-            button2.layer.backgroundColor = TerrariaGreen.CGColor
+            button2.layer.backgroundColor = TerrariaWhite.CGColor
             button2.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         }
     }
@@ -33,7 +33,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.view.backgroundColor = TerrariaBlue
+        self.view.backgroundColor = TerrariaWhite
         self.title = "Terraria Crafting Helper"
     }
 

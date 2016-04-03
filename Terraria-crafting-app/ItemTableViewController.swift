@@ -20,7 +20,7 @@ class ItemTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.backgroundColor = TerrariaBlue
+        self.tableView.backgroundColor = TerrariaWhite
         
         // Setup search bar
         self.searchController.loadViewIfNeeded()
@@ -31,7 +31,7 @@ class ItemTableViewController: UITableViewController {
         tableView.tableHeaderView = searchController.searchBar
         searchController.searchBar.scopeButtonTitles = ["By Name", "By Recipe"]
         searchController.searchBar.delegate = self
-        searchController.searchBar.barTintColor = TerrariaGreen
+        searchController.searchBar.barTintColor = TerrariaWhite
         
         // Load menu items from database
         if let managedObjectContext = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext {
@@ -57,12 +57,10 @@ class ItemTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         if searchController.active && searchController.searchBar.text != "" {
             return filteredItems.count
         }

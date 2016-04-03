@@ -15,7 +15,7 @@ class MultiItemTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.backgroundColor = TerrariaBlue
+        self.backgroundColor = TerrariaWhite
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
